@@ -1,22 +1,31 @@
-![TRAA Logo](images/traa_logo-MASTER.png)
+![TRAA Logo](images/traa_logo-MASTER.svg)
 Format: ![Alt Text](url)
 
-# This is an In-Class Example of What Trevor Wants README Files to Look Like
+# Thames River Anglers Association 
+## Website Redesign
 
-This is where you put a small description of what the project is.
+By taking the existing website and its content, we have created a different take on anglers.org for the Thames River Anglers Association.
 
 ## Description
 
-Explain brand history and a description of the project, very similar to above
+We have created six fully designed wireframes as well as three coded pages (Home, About, and Contact) for the TRAA. Our concept for the design was based around condensing all of the information on their current site into optional flyout menus and smaller areas to allow for a more seamless scrolling experience. Users can now find exactly what they want faster and can choose what sections they want to learn more about. 
+
+Since the midterm, we have added responsive design and made any layout changes that were discussed at that time.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10, CSS3, HTML5
-* Be sure to prefix any bleeding-edge rules, tags, etc. (see [caniuse](https://caniuse.com/) for reference)
-* Also using lastest ES6/next, you should probably think about including [Babel](https://babeljs.io/) for transpilation (or an NPM Script)
+* HTML5
+* CSS3
+* Javascript
+* Adobe Photoshop
+* Adobe Illustrator
+* InVision
+
+## InVision Link
+
+* https://projects.invisionapp.com/freehand/document/JEQx3n20V
 
 ### Installing
 
@@ -28,15 +37,20 @@ Contributors names and contact info
 
 * Alec Riddick
 	* [Website](http://www.chroniclesofriddickdesign.com/)
+* Dana Marin-Garcia
+	* [Website](#)
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-* MIT is usually fine (research what this means)
+* MIT
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
+* Thames River Anglers Association
+	* [Original Website](http://anglers.org)
 * [awesome-readme](https://github.com/matiassingers/awesome-readme)
 * [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
 * [README Formatting](https://guides.github.com/features/mastering-markdown/)
+* Trevor Van Rys
+* Krista Pellow
+* Chris Pellow

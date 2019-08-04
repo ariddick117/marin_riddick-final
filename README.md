@@ -1,5 +1,4 @@
 ![TRAA Logo](images/traa_logo-MASTER.svg)
-Format: ![Alt Text](url)
 
 # Thames River Anglers Association 
 ## Website Redesign

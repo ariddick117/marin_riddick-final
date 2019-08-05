@@ -1,3 +1,4 @@
+/* -------GENERAL STYLING-------- */
 .hidden
 {
 	display: none;
@@ -7,8 +8,6 @@ img, embed, object, video
 {
 	max-width: 100%;
 }
-
-/* General Styling */
 
 body
 {
@@ -27,6 +26,8 @@ h2, h3
 	font-family: Georgia, serif;
 	color: black;
 }
+
+/* -------GENERAL HEADER + FOOTER -------- */
 
 /* ----HEADER----- */
 #mainHeader {
@@ -165,6 +166,85 @@ h2, h3
 	font-family: arial, sans-serif;
 }
 
+/* ---- FOOTER ----- */
+/* Footer background  */
+#main_footer {
+	background-image: url(../images/footer_bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Social Media Icons (footer) */
+#social_media_footer {
+	display: flex;
+	flex-direction: column;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+#facebook_footer img {
+ 	width: 15%;
+ 	height: auto;
+	padding: 5px;
+	position: relative;
+}
+
+#email_footer img {
+	width: 15%;
+ 	height: auto;
+	padding: 5px;
+	position: relative;
+}
+
+/* #facebook_footer img:hover {
+  	filter:drop-shadow(3px 3px 3px #5C5C5C);
+  	transition: all 0.2s ease;
+} */
+
+/* #email_footer img:hover {
+  	filter:drop-shadow(3px 3px 3px #5C5C5C);
+  	transition: all 0.2s ease;
+} */
+
+/* Logo footer */
+
+#logoFooter img {
+	width: 25%;
+	height: auto;
+	position: absolute;
+	padding: 0px;
+	margin-top: -30%;
+	margin-left: 38%;
+}
+
+#back_to_top a {
+	color: white;
+	margin-left: 70%;
+	margin-top: -21%;
+	position: absolute;
+}
+
+/* Copyrights */
+
+#copyrights {
+	width: 100%;
+	height: auto;
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#copyrights h3 {
+	color: white;
+	font-size: .8em;
+	font-family: Arial, sans-serif;
+	padding: 20px 0 20px 0;
+}
+
+/* ------- INDEX STYLING -------- */
+
 /* ----MAIN----- */
 
 /* About section */
@@ -297,79 +377,86 @@ h2, h3
 	padding: 20px 0 20px 0;
 }
 
-/* ---- FOOTER ----- */
-/* Footer background  */
-#main_footer {
-	background-image: url(../images/footer_bg.png);
+/* ------- ABOUT US STYLING -------- */
+
+/* COLLAPSIBLE SHOULD GO HERE!!! */
+.collapsible_1 img {
+	margin: 40px 0 20px 0;
+}
+
+/* become a member section */
+#become_image {
+	background-image: url(../images/projects-project_3.JPG);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	width: 100%;
+	height: 150px;
+	margin: 10% 0 10% 0;
 }
 
-/* Social Media Icons (footer) */
-#social_media_footer {
+#become_content {
+	width: 90%;
+	height: auto;
+}
+
+#become_content p {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: justify;
+	line-height: 1em;
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
+#become_content button {
+	width: 35%;
+	height: auto;
+	background-color: darkolivegreen;
+	color: white;
+	border-radius: 10px;
+	margin-left: 38%;
+	padding: 10px;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 7%;
+}
+
+/* meet the team section */
+#team_title {
+	font-family: arial, sans-serif;
+	font-size: 2em;
+	color: black;
+	margin: 60px 0 40px 0;
+	text-align: center;
+}
+
+#team_info {
 	display: flex;
 	flex-direction: column;
-	margin-top: 5%;
-	margin-left: 5%;
+	align-items: center;
 }
 
-#facebook_footer img {
- 	width: 15%;
- 	height: auto;
-	padding: 5px;
-	position: relative;
-}
-
-#email_footer img {
-	width: 15%;
- 	height: auto;
-	padding: 5px;
-	position: relative;
-}
-
-/* #facebook_footer img:hover {
-  	filter:drop-shadow(3px 3px 3px #5C5C5C);
-  	transition: all 0.2s ease;
-} */
-
-/* #email_footer img:hover {
-  	filter:drop-shadow(3px 3px 3px #5C5C5C);
-  	transition: all 0.2s ease;
-} */
-
-/* Logo footer */
-
-#logoFooter img {
-	width: 25%;
+#team_info img {
+	width: 50%;
 	height: auto;
-	position: absolute;
-	padding: 0px;
-	margin-top: -30%;
-	margin-left: 38%;
+	border-radius: 100px;
+	align-items: center;
+	margin: 5%;
 }
 
-#back_to_top a {
-	color: white;
-	margin-left: 70%;
-	margin-top: -21%;
-	position: absolute;
+#team_info h2 {
+	font-family: arial, sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	margin: 5%;
 }
 
-/* Copyrights */
-
-#copyrights {
-	width: 100%;
-	height: auto;
-	background-color: black;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-#copyrights h3 {
-	color: white;
-	font-size: .8em;
+#team_info h3 {
 	font-family: Arial, sans-serif;
-	padding: 20px 0 20px 0;
+	font-size: 1em;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 5%;
 }

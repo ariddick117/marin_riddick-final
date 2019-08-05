@@ -555,3 +555,90 @@ h2, h3
 	filter:drop-shadow(3px 3px 3px #5C5C5C);
 	transition: all 0.3s ease;
 } */
+
+/* ------- GET INVOLVED STYLING -------- */
+
+/* How to get involved section */
+
+#involved_image {
+	background-image: url(../images/get_involved-memberships_info.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	width: 100%;
+	height: 150px;
+	margin: 10% 0 10% 0;
+}
+
+#involved_content {
+	width: 90%;
+	height: auto;
+}
+
+#involved_content p {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: justify;
+	line-height: 1em;
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
+#involved_content button {
+	width: 35%;
+	height: auto;
+	background-color: darkolivegreen;
+	color: white;
+	border-radius: 10px;
+	margin-left: 38%;
+	padding: 10px;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 7%;
+}
+
+/* Merchandise section */
+#merchandise_image {
+	background-image: url(../images/merchandise.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	width: 100%;
+	height: 150px;
+	margin: 10% 0 10% 0;
+}
+
+#merchandise_content {
+	width: 90%;
+	height: auto;
+}
+
+#merchandise_content p {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: justify;
+	line-height: 1em;
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
+#merchandise_content button {
+	width: 35%;
+	height: auto;
+	background-color: darkolivegreen;
+	color: white;
+	border-radius: 10px;
+	margin-left: 38%;
+	padding: 10px;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 7%;
+}
+
+/* Useful links section */
+/* A COLLAPSIBLE SHOULD GO HERE!!! */
+
+.links_collapsible img {
+	width: 100%;
+	height: auto;
+}

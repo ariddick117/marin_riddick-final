@@ -5,9 +5,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.1/css/all.css">
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/main.css">
-	<link rel="shortcut icon" type="image/png" href="images/traa_favicon.png"/>
+	<!-- <link rel="shortcut icon" type="image/png" href="images/traa_favicon.png"/> -->
 
 	<title>Thames River Anglers Assosiation</title>
 </head>
@@ -25,10 +26,10 @@
 				<ul class="burgerMenu">
 					<li><a href="index.html">HOME</a></li>
 					<li><a href="aboutUs.html">ABOUT US</a></li>
-					<li><a href="#">PROJECTS</a></li>
-					<li><a href="#">GET INVOLVED</a></li>
-					<li><a href="#">NEWSLETTERS</a></li>
-					<li><a href="contactus.html">CONTACT US</a></li>
+					<li><a href="projects.html">PROJECTS</a></li>
+					<li><a href="getInvolved.html">GET INVOLVED</a></li>
+					<li><a href="newsletters.html">NEWSLETTERS</a></li>
+					<li><a href="contactUs.html">CONTACT US</a></li>
 				</ul>
 			</div>
 		</nav>
@@ -85,10 +86,25 @@
 			<h2 class="hidden">Events Section</h2>
 			<h2 id="events_title">UPCOMING EVENTS</h2>
 			<div class="section_division"></div>
-			<div id="events_carousel">
-			<!-- Carousel goes here!!! -->
-				<img src="images/projects-project_1-top.jpg" alt="Something">
-			</div>
+
+			<!-- Events carousel -->
+			<section id="carousel_container">
+				<div id="carousel_images" style="right: 0">
+					<img src="images/become_a_member.png" alt="T.R.A.A. volunteers working">
+					<img src="images/get_involved-memberships_info.png" alt="T.R.A.A. volunteer holding a trout">
+					<img src="images/projects-project_1-top.jpg" alt="Trout being measured">
+					<img src="images/projects-project_3.JPG" alt="T.R.A.A. searching for samples">
+					<img src="images/projects-project_2.jpg" alt="T.R.A.A. volunteers measuring a trout">
+				</div>
+			</section>
+
+			<section id="carousel_controls">
+				<h2 class="hidden">Carousel controls</h2>
+				<i class="fas fa-chevron-left arrowsCon left" data-offset="0"></i>
+				<i class="fas fa-chevron-right arrowsCon right" data-offset="1"></i>
+			</section>
+
+
 		</section>
 
 	<!-- Membership section -->

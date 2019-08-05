@@ -311,6 +311,45 @@ h2, h3
 }
 
 /* CAROUSEL STYLING GOES HERE */
+#carousel_container {
+	width: 600px;
+	height: 260px;
+	background-color: darkolivegreen;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+#carousel_images {
+	position:relative;
+	width:4000px;
+	transition: all .5s;
+}
+
+#carousel_images img {
+	float:left;
+}
+
+#carousel_controls {
+	margin-top: 10%;
+	display: flex;
+	flex-direction: row;
+}
+
+.fa-chevron-left {
+	margin: 0 0 0 9%;
+}
+
+.fa-chevron-right {
+	margin: 0 5% 0 77%;
+}
+
+.fas {
+	font-size: 2em;
+	color: darkolivegreen;
+	cursor: pointer;
+}
+
+
 
 /* membership section */
 #memberships_title {

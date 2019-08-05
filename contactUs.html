@@ -61,81 +61,46 @@
 		</div>
 	</header>
 
-  <!-- MAIN section starts -->
+<!-- MAIN starts -->
   <main>
-
-    <!-- About intro -->
-    <section>
-      <h2 class="hidden">About the T.R.A.A.</h2>
-      <h2 id="about_title" >WHO IS THE T.R.A.A.</h2>
-      <div class="section_division"></div>
-      <div id="about_content">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris.
-        </p>
-      </div>
-    </section>
-
-    <!-- Events collapsibles -->
-    <section id="events_collapsibles">
-      <h2 class="hidden">Events details</h2>
-      <div class="collapsible_1">
-          <img src="images/about-project_1.png" alt="T.R.A.A. volunteers measuring a trout">
-      </div>
-      <div class="collapsible_2">
-        <img src="images/projects-project_2.png" alt="T.R.A.A. volunteers collecting samples">
-      </div>
-    </section>
 
     <!-- Become a member section -->
     <section>
-      <h2 class="hidden">Become a member!</h2>
-      <h2 id="about_title">BECOME A MEMBER TODAY</h2>
+      <h2 class="hidden">Become a member</h2>
+      <h2 id="member_title">BE PART OF OUR FAMILY</h2>
       <div class="section_division"></div>
-      <div id="become_image"></div>
-      <div id="become_content">
+      <div id="member_content">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris.
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris.
         </p>
-        <button>READ MORE</button>
       </div>
+      <!-- contact map -->
+      <div class="contact_map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2920.5516697630387!2d-81.2215785!3d42.9455776!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef3b0230e0ab7%3A0xef9728496a3f24d1!2sWestern+Ont+Fish+%26+Game+Protective+Assn!5e0!3m2!1sen!2sca!4v1560270885064!5m2!1sen!2sca" width="100%" height="450" style="border:0" allowfullscreen></iframe>
+		</div>
     </section>
 
-    <!-- Meet the team -->
+    <!-- contact form section -->
     <section>
-      <h2 class="hidden">Team members information</h2>
-      <h2 id="team_title">MEET THE TEAM</h2>
-      <div class="section_division"></div>
-      <div id="team_info">
-      <!-- member 1 -->
-          <img src="images/headshot_placeholder.jpg" alt="Team member photo">
-          <h2>NAME OF THE PERSON</h2>
-          <h3>TITLE</h3>
+      <h2 class="hidden">Contact form</h2>
 
-      <!-- member 2 -->
-          <img src="images/headshot_placeholder.jpg" alt="Team member photo">
-          <h2>NAME OF THE PERSON</h2>
-          <h3>TITLE</h3>
+      <form class="contact_form" method="post">
+        <label>First Name:</label>
+        <input type="text" required id="name" size="30">
 
-      <!-- member 3 -->
-          <img src="images/headshot_placeholder.jpg" alt="Team member photo">
-          <h2>NAME OF THE PERSON</h2>
-          <h3>TITLE</h3>
+        <label>Last Name:</label>
+        <input type="text" required id="lastName" size="30">
 
-      <!-- member 4 -->
-          <img src="images/headshot_placeholder.jpg" alt="Team member photo">
-          <h2>NAME OF THE PERSON</h2>
-          <h3>TITLE</h3>
+        <label>Subject line:</label>
+        <input type="text" required id="subject" size="30">
 
-      <!-- member 5 -->
-          <img src="images/headshot_placeholder.jpg" alt="Team member photo">
-          <h2>NAME OF THE PERSON</h2>
-          <h3>TITLE</h3>
-      </div>
+        <label>Message:</label>
+        <textarea name="message" id="message" required cols="50" rows="8"></textarea>
+
+        <input id="submit" type="submit" value="SUBMIT">
+      </form>
     </section>
   </main>
 
@@ -172,7 +137,6 @@
 			<h3>Powered by Fanshawe College</h3>
 		</div>
 	</footer>
-
 
 	<script src="js/main.js"></script>
 </body>

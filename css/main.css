@@ -460,3 +460,98 @@ h2, h3
 	text-align: center;
 	margin-bottom: 5%;
 }
+
+/* ------- CONTACT US STYLING -------- */
+
+/* Become a member section */
+#member_title {
+	font-family: arial, sans-serif;
+	font-size: 1.7em;
+	color: black;
+	margin: 60px 0 40px 0;
+	text-align: center;
+}
+
+#member_content {
+	width: 90%;
+	height: auto;
+}
+
+#member_content p {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: justify;
+	line-height: 1em;
+	font-size: 1.2em;
+	margin-left: 10%;
+	margin-bottom: 10%;
+}
+
+/* Contact map */
+.contact_map {
+	background-color: black;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	width: 100vw;
+	height: 450px;
+	margin-bottom: 10%;
+}
+
+/* Contact form */
+.contact_form {
+  margin-top: 20px;
+  font-weight: bold;
+	margin-left: 5%;
+}
+
+.contact_form input, textarea  {
+  font-size: .8em;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 10px;
+  width: 90%;
+  height: 5%;
+  background-color: lightgrey;
+  display: block;
+  color: black;
+  border: lightgrey;
+}
+
+#message {
+  font-size: .8em;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 10px;
+  width: 90%;
+  height: 40%;
+  background-color: lightgrey;
+  display: block;
+  color: black;
+}
+
+#submit {
+  font-size: 1.25em;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 10px;
+  width: 30%;
+  height: auto;
+  display: block;
+  color: white;
+  border: white;
+  font-weight: bold;
+  background-color: darkolivegreen;
+  cursor: pointer;
+	border-radius: 10px;
+}
+
+/* #submit:hover {
+	background-color: white;
+	color: #667333;
+	filter:drop-shadow(3px 3px 3px #5C5C5C);
+	transition: all 0.3s ease;
+} */

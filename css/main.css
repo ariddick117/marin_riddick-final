@@ -689,3 +689,145 @@ h2, h3
 	font-weight: bold;
 	margin-top: 7%;
 }
+
+/* ------- PROJECTS STYLING -------- */
+/* projects and events section */
+
+#projects_title {
+	font-family: arial, sans-serif;
+	font-size: 1.8em;
+	color: black;
+	margin: 60px 0 40px 0;
+	text-align: center;
+}
+
+#projects_content {
+	width: 90%;
+	height: auto;
+}
+
+#projects_content p {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: justify;
+	line-height: 1em;
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
+/* COLLAPSIBLES SHOULD GO HERE!!! */
+/* collapsible 1 */
+#event_1 {
+	background-image: url(../images/projects-project_1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 150px;
+	margin: 10% 0 10% 0;
+}
+
+#event_1 h2 {
+	font-size: 2em;
+	font-family: Arial, sans-serif;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 10% 0 3% 0;
+}
+
+#event_1 h3 {
+	font-size: 1.8em;
+	font-family: Arial, sans-serif;
+	color: white;
+	text-align: center;
+	font-style: italic;
+	padding: 5px;
+}
+
+/* collapsible 2 */
+#event_2 {
+	background-image: url(../images/projects-project_2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 150px;
+	margin: 10% 0 10% 0;
+}
+
+#event_2 h2 {
+	font-size: 2em;
+	font-family: Arial, sans-serif;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 10% 0 3% 0;
+}
+
+#event_2 h3 {
+	font-size: 1.8em;
+	font-family: Arial, sans-serif;
+	color: white;
+	text-align: center;
+	font-style: italic;
+	padding: 5px;
+}
+
+/* collapsible 3 */
+#event_3 {
+	background-image: url(../images/projects-project_3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 150px;
+	margin: 10% 0 10% 0;
+}
+
+#event_3 h2 {
+	font-size: 2em;
+	font-family: Arial, sans-serif;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 10% 0 3% 0;
+}
+
+#event_3 h3 {
+	font-size: 1.8em;
+	font-family: Arial, sans-serif;
+	color: white;
+	text-align: center;
+	font-style: italic;
+	padding: 5px;
+}
+
+/* collapsible 4 */
+#event_4 {
+	background-image: url(../images/projects-project_4.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 150px;
+	margin: 10% 0 10% 0;
+}
+
+#event_4 h2 {
+	font-size: 2em;
+	font-family: Arial, sans-serif;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 10% 0 3% 0;
+}
+
+#event_4 h3 {
+	font-size: 1.8em;
+	font-family: Arial, sans-serif;
+	color: white;
+	text-align: center;
+	font-style: italic;
+	padding: 5px;
+}

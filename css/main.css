@@ -7,3 +7,369 @@ img, embed, object, video
 {
 	max-width: 100%;
 }
+
+/* General Styling */
+
+body
+{
+	font-family: Arial, sans-serif;
+	background-color: white;
+}
+
+a
+{
+  text-decoration: none;
+  transition:all .1s linear 0s;
+}
+
+h2, h3
+{
+	font-family: Georgia, serif;
+	color: black;
+}
+
+/* ----HEADER----- */
+#mainHeader {
+	background-image: url(../images/home-hero_image.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Burger Menu */
+
+.mainNav {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 50px;
+}
+
+.mainNav button {
+	margin-right: auto;
+}
+
+#burgerContent {
+	display: none;
+ 	margin-top: 20px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#burgerContent.slideToggle {
+ display: block;
+}
+
+#mainNav button {
+  background: url(../images/burger.svg) center no-repeat;
+  border: 0;
+  width: 35px;
+  height: 35px;
+  transition: all 500ms ease;
+	margin: 20px 0 0 20px;
+}
+
+#mainNav button.expanded {
+/*  browser prefixes for transform*/
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+/*default transform*/
+  transform: rotate(90deg);
+}
+
+#mainNav li a {
+  display: block;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+#mainNav li {
+  border-bottom: 1px solid darkolivegreen;
+}
+
+#mainNav li:first-child {
+  border-top: 1px solid white;
+}
+
+#mainNAv li:last-child {
+  margin-bottom: 10px;
+}
+
+#mainNav li a:hover {
+  background-color: red;
+}
+
+/* Social Media Icons (header) */
+#social_media_header {
+	display: flex;
+	flex-direction: column;
+	margin-left: 80%;
+	margin-top: 5%;
+}
+
+#facebook_header img {
+ 	width: 50%;
+ 	height: auto;
+	padding: 5px;
+	position: relative;
+}
+
+#email_header img {
+	width: 50%;
+ 	height: auto;
+	padding: 5px;
+	position: relative;
+}
+
+/* #facebook_header img:hover {
+  	filter:drop-shadow(3px 3px 3px #5C5C5C);
+  	transition: all 0.2s ease;
+} */
+
+/* #email_header img:hover {
+  	filter:drop-shadow(3px 3px 3px #5C5C5C);
+  	transition: all 0.2s ease;
+} */
+
+/* Logo header */
+
+#logoHeader {
+	width: 25%;
+	height: auto;
+	position: relative;
+	padding: 0px;
+	margin-top: -100px;
+	margin-left: 38%;
+}
+
+/* Hero text */
+.hero_text h2 {
+	font-size: 2.5em;
+	text-align: left;
+	margin-left: 10%;
+	color: black;
+	font-weight: bold;
+	margin-top: 10%;
+	font-family: arial, sans-serif;
+	line-height: 1.5em;
+}
+
+.hero_text h3 {
+	font-size: 1.3em;
+	text-align: left;
+	padding-left: 10%;
+	color: black;
+	margin-top: 7%;
+	line-height: 1.5em;
+	width: 80%;
+	padding-bottom: 10%;
+	font-family: arial, sans-serif;
+}
+
+/* ----MAIN----- */
+
+/* About section */
+#about_title {
+	font-family: arial, sans-serif;
+	font-size: 2em;
+	color: black;
+	margin: 60px 0 40px 0;
+	text-align: center;
+}
+
+.section_division {
+	background-color: darkolivegreen;
+	margin-left: 32%;
+	margin-bottom: 10%;
+	width: 37%;
+	height: 7px;
+}
+
+#about_image {
+	background-image: url(../images/home-about-featured_image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 150px;
+	margin: 10% 0 10% 0;
+}
+
+#about_content {
+	width: 90%;
+	height: auto;
+}
+
+#about_content p {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: justify;
+	line-height: 1em;
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
+#about_content button {
+	width: 35%;
+	height: auto;
+	background-color: darkolivegreen;
+	color: white;
+	border-radius: 10px;
+	margin-left: 38%;
+	padding: 10px;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 7%;
+}
+
+/* Events section */
+#events_title {
+	font-family: arial, sans-serif;
+	font-size: 2em;
+	color: black;
+	margin: 60px 0 40px 0;
+	text-align: center;
+}
+
+/* CAROUSEL STYLING GOES HERE */
+
+/* membership section */
+#memberships_title {
+	font-family: arial, sans-serif;
+	font-size: 1.6em;
+	color: black;
+	margin: 60px 0 40px 0;
+	text-align: center;
+}
+
+#memberships_image {
+	background-image: url(../images/projects-project_3.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 150px;
+	margin: 10% 0 10% 0;
+}
+
+#memberships_content {
+	width: 90%;
+	height: auto;
+}
+
+#memberships_content p {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: justify;
+	line-height: 1em;
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
+#memberships_content button {
+	width: 35%;
+	height: auto;
+	background-color: darkolivegreen;
+	color: white;
+	border-radius: 10px;
+	margin-left: 38%;
+	padding: 10px;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 7%;
+}
+
+/* Sponsors section */
+#sponsors_title {
+	font-family: arial, sans-serif;
+	font-size: 1.6em;
+	color: black;
+	margin: 60px 0 40px 0;
+	text-align: center;
+}
+
+#sponsors_logos_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#sponsors_logos_container img {
+	padding: 20px 0 20px 0;
+}
+
+/* ---- FOOTER ----- */
+/* Footer background  */
+#main_footer {
+	background-image: url(../images/footer_bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Social Media Icons (footer) */
+#social_media_footer {
+	display: flex;
+	flex-direction: column;
+	margin-top: 5%;
+	margin-left: 5%;
+}
+
+#facebook_footer img {
+ 	width: 15%;
+ 	height: auto;
+	padding: 5px;
+	position: relative;
+}
+
+#email_footer img {
+	width: 15%;
+ 	height: auto;
+	padding: 5px;
+	position: relative;
+}
+
+/* #facebook_footer img:hover {
+  	filter:drop-shadow(3px 3px 3px #5C5C5C);
+  	transition: all 0.2s ease;
+} */
+
+/* #email_footer img:hover {
+  	filter:drop-shadow(3px 3px 3px #5C5C5C);
+  	transition: all 0.2s ease;
+} */
+
+/* Logo footer */
+
+#logoFooter img {
+	width: 25%;
+	height: auto;
+	position: absolute;
+	padding: 0px;
+	margin-top: -30%;
+	margin-left: 38%;
+}
+
+#back_to_top a {
+	color: white;
+	margin-left: 70%;
+	margin-top: -21%;
+	position: absolute;
+}
+
+/* Copyrights */
+
+#copyrights {
+	width: 100%;
+	height: auto;
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#copyrights h3 {
+	color: white;
+	font-size: .8em;
+	font-family: Arial, sans-serif;
+	padding: 20px 0 20px 0;
+}

@@ -10,7 +10,7 @@
 		var button = document.querySelector("#button");
 		var burgerCon = document.querySelector("#burgerContent");
 
-	//ABOUT collapsibles variables
+	//collapsibles variables
 		var colArrowOne = document.querySelector(".arrow_one");
 		var colArrowTwo = document.querySelector(".arrow_two");
 
@@ -24,7 +24,7 @@
 			button.classList.toggle("expanded");
 		}
 
-	//ABOUT collapsibles functions
+	//collapsibles functions
 		function collapsibleOne() {
 			colContOne.classList.toggle("slideToggle");
 			colArrowOne.classList.toggle("expanded");
@@ -38,7 +38,7 @@
 	//burger menu event
 		button.addEventListener("click", hamburgerMenu, false);
 
-	// ABOUT collapsibles functions
+	//collapsibles functions
 		colArrowOne.addEventListener("click", collapsibleOne, false);
 		colArrowTwo.addEventListener("click", collapsibleTwo, false);
 

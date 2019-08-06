@@ -23,11 +23,11 @@ a
 
 h2, h3
 {
-	font-family: Georgia, serif;
+	font-family: Georgia, serif; /*fix this eventually*/
 	color: black;
 }
 
-/* -------GENERAL HEADER + FOOTER -------- */
+/* -------GENERAL HEADER + FOOTER + COLLAPSIBLES-------- */
 
 /* ----HEADER----- */
 #mainHeader {
@@ -243,10 +243,224 @@ h2, h3
 	padding: 20px 0 20px 0;
 }
 
+/* ---- COLLAPSIBLES ----- */
+
+/* Collapsible 1 */
+.collapsible_1 {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 150px;
+	margin: 10% 0 10% 0;
+}
+
+.collapsible_1 h2 {
+	font-family: arial, sans-serif;
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 0 5% 0;
+	padding-top: 5%;
+}
+
+.collapsible_1 h3 {
+	font-family: arial, sans-serif;
+	color: white;
+	font-size: 1.8em;
+	font-style: italic;
+	text-align: center;
+}
+
+.collapsible_1_content {
+	width: 90%;
+	height: auto;
+}
+
+.collapsible_1_content p {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: justify;
+	line-height: 1em;
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
+.collapsible_1_content {
+	display: none;
+ 	margin-top: 20px;
+}
+
+.collapsible_1_content.slideToggle {
+ display: block;
+}
+
+/* Collapsible 2 */
+.collapsible_2 {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 150px;
+	margin: 10% 0 10% 0;
+}
+
+.collapsible_2 h2 {
+	font-family: arial, sans-serif;
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 0 5% 0;
+	padding-top: 5%;
+}
+
+.collapsible_2 h3 {
+	font-family: arial, sans-serif;
+	color: white;
+	font-size: 1.8em;
+	font-style: italic;
+	text-align: center;
+}
+
+.collapsible_2_content {
+	width: 90%;
+	height: auto;
+}
+
+.collapsible_2_content p {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: justify;
+	line-height: 1em;
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
+.collapsible_2_content {
+	display: none;
+ 	margin-top: 20px;
+}
+
+.collapsible_2_content.slideToggle {
+ display: block;
+}
+
+/* Collapsible 3 */
+.collapsible_3 {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 150px;
+	margin: 10% 0 10% 0;
+}
+
+.collapsible_3 h2 {
+	font-family: arial, sans-serif;
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 0 5% 0;
+	padding-top: 5%;
+}
+
+.collapsible_3 h3 {
+	font-family: arial, sans-serif;
+	color: white;
+	font-size: 1.8em;
+	font-style: italic;
+	text-align: center;
+}
+
+.collapsible_3_content {
+	width: 90%;
+	height: auto;
+}
+
+.collapsible_3_content p {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: justify;
+	line-height: 1em;
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
+.collapsible_3_content {
+	display: none;
+ 	margin-top: 20px;
+}
+
+.collapsible_3_content.slideToggle {
+ display: block;
+}
+
+/* Collapsible 4 */
+.collapsible_4 {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 150px;
+	margin: 10% 0 10% 0;
+}
+
+.collapsible_4 h2 {
+	font-family: arial, sans-serif;
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 0 5% 0;
+	padding-top: 5%;
+}
+
+.collapsible_4 h3 {
+	font-family: arial, sans-serif;
+	color: white;
+	font-size: 1.8em;
+	font-style: italic;
+	text-align: center;
+}
+
+.collapsible_4_content {
+	width: 90%;
+	height: auto;
+}
+
+.collapsible_4_content p {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: justify;
+	line-height: 1em;
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
+.collapsible_4_content {
+	display: none;
+ 	margin-top: 20px;
+}
+
+.collapsible_4_content.slideToggle {
+ display: block;
+}
+
+/* Collapsible arrow */
+.fa-chevron-down {
+	margin-left: 46%;
+	font-size: 2em;
+	color: white;
+	margin-top: 4%;
+	cursor: pointer;
+}
+
 /* ------- INDEX STYLING -------- */
 
 /* ----MAIN----- */
-
 /* About section */
 #about_title {
 	font-family: arial, sans-serif;
@@ -417,124 +631,15 @@ h2, h3
 }
 
 /* ------- ABOUT US STYLING -------- */
-
-/* Collapsible 1 */
-.collapsible_1 {
+/* Collapsible 1 bcg img */
+.col_event_bcg {
 	background-image: url(../images/about-project_1.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-	height: 150px;
-	margin: 10% 0 10% 0;
 }
 
-.collapsible_1 h2 {
-	font-family: arial, sans-serif;
-	color: white;
-	font-size: 2em;
-	font-weight: bold;
-	text-align: center;
-	margin: 0 0 5% 0;
-	padding-top: 5%;
-}
-
-.collapsible_1 h3 {
-	font-family: arial, sans-serif;
-	color: white;
-	font-size: 1.8em;
-	font-style: italic;
-	text-align: center;
-}
-
-.collapsible_1_content {
-	width: 90%;
-	height: auto;
-}
-
-.collapsible_1_content p {
-	font-family: arial, sans-serif;
-	color: black;
-	text-align: justify;
-	line-height: 1em;
-	font-size: 1.2em;
-	margin-left: 10%;
-}
-
-.collapsible_1_content {
-	display: none;
- 	margin-top: 20px;
-}
-
-.collapsible_1_content.slideToggle {
- display: block;
-}
-
-/* Collapsible 2 */
-.collapsible_2 {
+/* Collapsible 2 bcg img */
+.col_event2_bcg {
 	background-image: url(../images/projects-project_2.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-	height: 150px;
-	margin: 10% 0 10% 0;
 }
-
-.collapsible_2 h2 {
-	font-family: arial, sans-serif;
-	color: white;
-	font-size: 2em;
-	font-weight: bold;
-	text-align: center;
-	margin: 0 0 5% 0;
-	padding-top: 5%;
-}
-
-.collapsible_2 h3 {
-	font-family: arial, sans-serif;
-	color: white;
-	font-size: 1.8em;
-	font-style: italic;
-	text-align: center;
-}
-
-.collapsible_2_content {
-	width: 90%;
-	height: auto;
-}
-
-.collapsible_2_content p {
-	font-family: arial, sans-serif;
-	color: black;
-	text-align: justify;
-	line-height: 1em;
-	font-size: 1.2em;
-	margin-left: 10%;
-}
-
-.collapsible_2_content {
-	display: none;
- 	margin-top: 20px;
-}
-
-.collapsible_2_content.slideToggle {
- display: block;
-}
-
-/* Collapsible arrow */
-.fa-chevron-down {
-	margin-left: 46%;
-	font-size: 2em;
-	color: white;
-	margin-top: 4%;
-	cursor: pointer;
-}
-
-
-
-
-
 /* become a member section */
 #become_image {
 	background-image: url(../images/projects-project_3.JPG);
@@ -786,53 +891,12 @@ h2, h3
 	margin-top: 7%;
 }
 
-/* Useful links section */
-/* this Links collapsible */
+/* --Useful links section-- */
 
-/* Collapsible 1 */
-.collapsible_1_links {
-	background-image: url(../images/about-about_section_bg.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-	height: 150px;
-	margin: 10% 0 10% 0;
+/* Collapsible 1 bcg img*/
+.col_links_bcg {
+	background-image: url(../images/get_involved-links-section.png);
 }
-
-.collapsible_1_links h2 {
-	font-family: arial, sans-serif;
-	color: white;
-	font-size: 2em;
-	font-weight: bold;
-	text-align: center;
-	margin: 0 0 5% 0;
-	padding-top: 5%;
-}
-
-.collapsible_1_links_con {
-	width: 90%;
-	height: auto;
-}
-
-.collapsible_1_links_con p {
-	font-family: arial, sans-serif;
-	color: black;
-	text-align: justify;
-	line-height: 1em;
-	font-size: 1.2em;
-	margin-left: 10%;
-}
-
-.collapsible_1_links_con {
-	display: none;
- 	margin-top: 20px;
-}
-
-.collapsible_1_links_con.slideToggle {
- display: block;
-}
-
 
 /* ------- NEWSLETTERS STYLING -------- */
 
@@ -906,119 +970,22 @@ h2, h3
 	margin-left: 10%;
 }
 
-/* COLLAPSIBLES SHOULD GO HERE!!! */
-/* collapsible 1 */
-#event_1 {
+/* collapsible 1 bcg img*/
+.col_proj_bcg {
 	background-image: url(../images/projects-project_1.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-	height: 150px;
-	margin: 10% 0 10% 0;
 }
 
-#event_1 h2 {
-	font-size: 2em;
-	font-family: Arial, sans-serif;
-	color: white;
-	text-align: center;
-	font-weight: bold;
-	padding: 10% 0 3% 0;
-}
-
-#event_1 h3 {
-	font-size: 1.8em;
-	font-family: Arial, sans-serif;
-	color: white;
-	text-align: center;
-	font-style: italic;
-	padding: 5px;
-}
-
-/* collapsible 2 */
-#event_2 {
+/* collapsible 2 bcg img*/
+.col_proj2_bcg {
 	background-image: url(../images/projects-project_2.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-	height: 150px;
-	margin: 10% 0 10% 0;
 }
 
-#event_2 h2 {
-	font-size: 2em;
-	font-family: Arial, sans-serif;
-	color: white;
-	text-align: center;
-	font-weight: bold;
-	padding: 10% 0 3% 0;
-}
-
-#event_2 h3 {
-	font-size: 1.8em;
-	font-family: Arial, sans-serif;
-	color: white;
-	text-align: center;
-	font-style: italic;
-	padding: 5px;
-}
-
-/* collapsible 3 */
-#event_3 {
+/* collapsible 3 bcg img*/
+.col_proj3_bcg {
 	background-image: url(../images/projects-project_3.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-	height: 150px;
-	margin: 10% 0 10% 0;
 }
 
-#event_3 h2 {
-	font-size: 2em;
-	font-family: Arial, sans-serif;
-	color: white;
-	text-align: center;
-	font-weight: bold;
-	padding: 10% 0 3% 0;
-}
-
-#event_3 h3 {
-	font-size: 1.8em;
-	font-family: Arial, sans-serif;
-	color: white;
-	text-align: center;
-	font-style: italic;
-	padding: 5px;
-}
-
-/* collapsible 4 */
-#event_4 {
+/* collapsible 4 bcg img*/
+.col_proj4_bcg {
 	background-image: url(../images/projects-project_4.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-	height: 150px;
-	margin: 10% 0 10% 0;
-}
-
-#event_4 h2 {
-	font-size: 2em;
-	font-family: Arial, sans-serif;
-	color: white;
-	text-align: center;
-	font-weight: bold;
-	padding: 10% 0 3% 0;
-}
-
-#event_4 h3 {
-	font-size: 1.8em;
-	font-family: Arial, sans-serif;
-	color: white;
-	text-align: center;
-	font-style: italic;
-	padding: 5px;
 }

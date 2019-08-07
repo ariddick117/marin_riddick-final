@@ -1086,18 +1086,45 @@ h2, h3
 		font-size: 1.2em;
 	}
 
-	/* general - footer logo */
+	/* general - footer logo + social media */
 	#logoFooter img {
 		margin-top: -26%;
 	}
 
-	/* index - carousel arrows */
+	#facebook_footer img {
+		width: 11%;
+	}
+
+	#email_footer img {
+		width: 11%;
+	}
+
+	/* general - footer back to top */
+	#back_to_top a {
+		margin-left: 78%;
+	}
+
+	/* index - images */
+	#about_image {
+		height: 300px;
+	}
+
+	#memberships_image {
+		height: 300px;
+	}
+
+	/* index - carousel */
 	.fa-chevron-right, .fa-chevron-left {
-		margin-top: 14%
+		margin-top: 19%
 	}
 	.fa-chevron-right {
 		margin-left: 91%;
 	}
+
+	#carousel_container {
+		height: 350px;
+	}
+
 }
 
 /* media query for 920px */

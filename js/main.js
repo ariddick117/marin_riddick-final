@@ -6,6 +6,8 @@
 	const arrows = document.querySelectorAll('.arrowsCon'),
 				bannerImages = document.querySelector('#carousel_images');
 
+	var counter = 0;
+
 
 	//BURGER menu variables
 		var button = document.querySelector("#button");
@@ -27,13 +29,30 @@
 
 	//CAROUSEL function
 		function animateBanners() {
+	  let offset = bannerImages.firstElementChild.offsetWidth;
 
-	  let offset = 600,
-		     multiplier = this.dataset.offset;
-	  console.log((offset * multiplier) + "px");
+		//left click
+		if (this.classList.contains('left')) {
+			counter --;
+			console.log(counter);
 
-	  bannerImages.style.right = `${offset * multiplier + "px"}`;
+		} else {
+			counter ++;
+			console.log(counter);
+		}
+
+		if (counter > 4) {
+			counter = 0;
+		}
+
+		if (counter < 0) {
+			counter = 4;
+		}
+
+		bannerImages.style.right = `${offset * counter + "px"}`;
 	}
+
+
 
 	//BURGER menu function
 		function hamburgerMenu() {

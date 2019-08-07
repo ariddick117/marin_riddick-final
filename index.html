@@ -19,6 +19,21 @@
 		<nav id="mainNav">
 			<h2 class="hidden">Main Navigation</h2>
 
+			<!-- social media icons (header) -->
+			<section id="social_media_header">
+				<h2 class="hidden">Social Media Icons</h2>
+				<div id="facebook_header">
+					<a href="https://www.facebook.com/groups/4TRAA/about/" target="_blank">
+						<img src="images/facebook.png" alt="facebook icon" >
+					</a>
+				</div>
+				<div id="email_header">
+					<a href="mailto:traa@anglers.org">
+						<img src="images/email_logo.png" alt="email icon">
+					</a>
+				</div>
+			</section>
+
 	<!-- Burger Menu -->
 			<button id="button"></button>
 
@@ -34,21 +49,6 @@
 			</div>
 		</nav>
 
-		<!-- social media icons (header) -->
-		<section id="social_media_header">
-			<h2 class="hidden">Social Media Icons</h2>
-			<div id="facebook_header">
-				<a href="https://www.facebook.com/groups/4TRAA/about/" target="_blank">
-					<img src="images/facebook.png" alt="facebook icon" >
-				</a>
-			</div>
-			<div id="email_header">
-				<a href="mailto:traa@anglers.org">
-					<img src="images/email_logo.png" alt="email icon">
-				</a>
-			</div>
-		</section>
-
 		<!-- main logo (header) -->
 		<div id="logoHeader">
 			<a href="index.html">
@@ -56,6 +56,7 @@
 			</a>
 		</div>
 
+		<!-- Hero text -->
 		<div class="hero_text">
 			<h2 class="hero_title">WELCOME TO THE THAMES RIVER ANGLERS ASSOSIATION</h2>
 			<h3 class="hero_subtitle">For the enhancement, protection and promotion of a viable, multi-species fishery within the Thames River watershed.</h3>
@@ -88,8 +89,14 @@
 			<div class="section_division"></div>
 
 			<!-- Events carousel -->
-			<section id="carousel_container">
-				<h2 class="hidden">Events carousel</h2>
+				<section id="carousel_controls"> <!-- Carousel controls -->
+					<h2 class="hidden">Carousel controls</h2>
+					<i style="z-index: 2" class="fas fa-chevron-left arrowsCon left" data-offset="0"></i>
+					<i style="z-index: 3" class="fas fa-chevron-right arrowsCon right" data-offset="1"></i>
+				</section>
+
+				<section id="carousel_container">
+					<h2 class="hidden">Events carousel</h2>
 				<div id="carousel_images" style="right: 0">
 					<img src="images/become_a_member.png" alt="T.R.A.A. volunteers working">
 					<img src="images/get_involved-memberships_info.png" alt="T.R.A.A. volunteer holding a trout">
@@ -98,13 +105,6 @@
 					<img src="images/projects-project_2.jpg" alt="T.R.A.A. volunteers measuring a trout">
 				</div>
 			</section>
-
-			<section id="carousel_controls">
-				<h2 class="hidden">Carousel controls</h2>
-				<i class="fas fa-chevron-left arrowsCon left" data-offset="0"></i>
-				<i class="fas fa-chevron-right arrowsCon right" data-offset="1"></i>
-			</section>
-
 
 		</section>
 

@@ -65,7 +65,7 @@ h2, h3
   width: 35px;
   height: 35px;
   transition: all 500ms ease;
-	margin: 20px 0 0 20px;
+	margin: 5% 0 0 5%;
 }
 
 #mainNav button.expanded {
@@ -103,22 +103,24 @@ h2, h3
 #social_media_header {
 	display: flex;
 	flex-direction: column;
-	margin-left: 80%;
-	margin-top: 5%;
+	justify-content: space-between;
+	margin-left: 68%;
 }
 
 #facebook_header img {
- 	width: 50%;
+ 	width: 10%;
  	height: auto;
 	padding: 5px;
-	position: relative;
+	position: absolute;
+	margin: 3% 0 0 0;
 }
 
 #email_header img {
-	width: 50%;
+	width: 10%;
  	height: auto;
 	padding: 5px;
-	position: relative;
+	position: absolute;
+	margin: 3% 0 0 15%;
 }
 
 /* #facebook_header img:hover {
@@ -138,7 +140,7 @@ h2, h3
 	height: auto;
 	position: relative;
 	padding: 0px;
-	margin-top: -100px;
+	margin-top: 0;
 	margin-left: 38%;
 }
 
@@ -179,19 +181,19 @@ h2, h3
 #social_media_footer {
 	display: flex;
 	flex-direction: column;
-	margin-top: 5%;
-	margin-left: 5%;
+	margin-left: 8%;
+	padding-top: 2%;
 }
 
 #facebook_footer img {
- 	width: 15%;
+ 	width: 12%;
  	height: auto;
 	padding: 5px;
 	position: relative;
 }
 
 #email_footer img {
-	width: 15%;
+	width: 12%;
  	height: auto;
 	padding: 5px;
 	position: relative;
@@ -222,6 +224,7 @@ h2, h3
 	color: white;
 	margin-left: 70%;
 	margin-top: -21%;
+	margin-bottom: 20%;
 	position: absolute;
 }
 
@@ -234,6 +237,7 @@ h2, h3
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	margin-top: 30%;
 }
 
 #copyrights h3 {
@@ -524,13 +528,14 @@ h2, h3
 	text-align: center;
 }
 
-/* CAROUSEL STYLING GOES HERE */
+/* ---EVENTS CAROUSEL--- */
 #carousel_container {
-	width: 600px;
+	width: 100%;
 	height: 260px;
 	background-color: darkolivegreen;
 	margin: 0 auto;
 	overflow: hidden;
+	filter: brightness(50%);
 }
 
 #carousel_images {
@@ -544,23 +549,26 @@ h2, h3
 }
 
 #carousel_controls {
-	margin-top: 10%;
+	/* margin-top: 10%; */
 	display: flex;
 	flex-direction: row;
 }
 
 .fa-chevron-left {
-	margin: 0 0 0 9%;
-	font-size: 2em;
-	color: darkolivegreen;
+	margin: 30% 0 0 4%;
+	font-size: 3em;
+	color: white;
 	cursor: pointer;
+	position: absolute;
+
 }
 
 .fa-chevron-right {
-	margin: 0 5% 0 77%;
-	font-size: 2em;
-	color: darkolivegreen;
+	margin: 30% 0 0 86%;
+	font-size: 3em;
+	color: white;
 	cursor: pointer;
+	position: absolute;
 }
 
 
@@ -988,4 +996,113 @@ h2, h3
 /* collapsible 4 bcg img*/
 .col_proj4_bcg {
 	background-image: url(../images/projects-project_4.png);
+}
+
+/* --------MEDIA QUERIES-------- */
+
+/* media query for 420px */
+@media screen and (min-width: 26.25em) {
+	.fa-chevron-right, .fa-chevron-left {
+		margin-top: 23%
+	}
+}
+
+/* media query for 500px */
+@media screen and (min-width: 31.25em) {
+	.fa-chevron-right, .fa-chevron-left {
+		margin-top: 19%
+	}
+}
+
+/* media query for 685px */
+@media screen and (min-width: 42.8125em) {
+	/* general - hamburger menu */
+	#mainNav button {
+		width: 7%;
+	}
+
+	/* general - social media icons */
+	#facebook_header img {
+		width: 9%;
+	}
+
+	#email_header img {
+		width: 9%;
+	}
+
+	/* general - hero text  */
+	.hero_text h2 {
+		font-size: 3.5em;
+		width: 80%;
+	}
+
+	.hero_text h3 {
+		font-size: 1.8em;
+	}
+
+	/* index - section titles */
+	#about_title {
+		font-size: 3em;
+	}
+
+	/* index - content text */
+	#about_content p {
+		font-size: 1.8em;
+	}
+
+	#about_content button {
+		font-size: 1.8em;
+		width: 30%;
+		margin-left: 41%;
+	}
+
+	#events_title {
+		font-size: 3em;
+		margin: 10% 0 5% 0;
+	}
+
+	#memberships_title {
+		font-size: 3em;
+		margin: 10% 0 5% 0;
+	}
+
+	#memberships_content p {
+		font-size: 1.8em;
+	}
+
+	#memberships_content button {
+		font-size: 1.8em;
+		width: 30%;
+		margin-left: 41%;
+	}
+
+	#sponsors_title {
+		font-size: 3em;
+		margin: 10% 0 5% 0;
+	}
+
+	/* general - footer copyrights */
+	#copyrights h3 {
+		font-size: 1.2em;
+	}
+
+	/* general - footer logo */
+	#logoFooter img {
+		margin-top: -26%;
+	}
+
+	/* index - carousel arrows */
+	.fa-chevron-right, .fa-chevron-left {
+		margin-top: 14%
+	}
+	.fa-chevron-right {
+		margin-left: 91%;
+	}
+}
+
+/* media query for 920px */
+@media screen and (min-width: 57.5em) {
+	.fa-chevron-right, .fa-chevron-left {
+		margin-top: 10%
+	}
 }

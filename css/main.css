@@ -704,7 +704,7 @@ h2, h3
 #team_info img {
 	width: 50%;
 	height: auto;
-	border-radius: 100px;
+	border-radius: 50%;
 	align-items: center;
 	margin: 5%;
 }
@@ -1030,6 +1030,15 @@ h2, h3
 		width: 9%;
 	}
 
+	/* general - hamburger menu */
+	#burgerContent ul {
+		margin-top: 7%;
+	}
+
+	#mainNav li a {
+		font-size: 1.65em;
+	}
+
 	/* general - hero text  */
 	.hero_text h2 {
 		font-size: 3.5em;
@@ -1038,6 +1047,29 @@ h2, h3
 
 	.hero_text h3 {
 		font-size: 1.8em;
+	}
+
+	/* general - collapsibles */
+	.collapsible_1 {
+		height: 250px;
+	}
+
+	.collapsible_1_content p {
+		font-size: 1.8em;
+	}
+
+	.collapsible_2 {
+		height: 250px;
+	}
+
+	.collapsible_2_content p {
+		font-size: 1.8em;
+	}
+
+	.fa-chevron-down {
+		margin-left: 46%;
+		font-size: 4em;
+
 	}
 
 	/* index - section titles */
@@ -1125,6 +1157,36 @@ h2, h3
 		height: 350px;
 	}
 
+	/* about - images  */
+	#become_image {
+		height: 300px;
+	}
+
+	/* about - titles */
+	#team_title {
+		font-size: 3em;
+		margin: 10% 0 5% 0;
+	}
+
+	/* about - content text */
+	#become_content p {
+		font-size: 1.8em;
+	}
+
+	#become_content button {
+		font-size: 1.8em;
+		width: 30%;
+		margin-left: 41%;
+	}
+
+	/* about - team info */
+	#team_info h2 {
+		font-size: 2.5em;
+	}
+
+	#team_info h3 {
+		font-size: 2em;
+	}
 }
 
 /* media query for 920px */

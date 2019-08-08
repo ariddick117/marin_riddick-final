@@ -461,6 +461,15 @@ h2, h3
 	color: white;
 	margin-top: 4%;
 	cursor: pointer;
+	transition: all 500ms ease;
+}
+
+.fa-chevron-down.expanded {
+/*  browser prefixes for transform*/
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+/*default transform*/
+  transform: rotate(180deg);
 }
 
 /* ------- INDEX STYLING -------- */
@@ -1185,7 +1194,7 @@ h2, h3
 		margin: 10% 0 5% 0;
 	}
 
-	/* about - content text */
+	/* about - content */
 	#become_content p {
 		font-size: 1.8em;
 	}
@@ -1213,6 +1222,55 @@ h2, h3
 	/* projects - content */
 	#projects_content p {
 		font-size: 1.8em;
+	}
+
+	/* get involved - images */
+	#involved_image {
+		height: 300px;
+	}
+
+	/* get involved - titles */
+	#member_title {
+		font-size: 2.8em;
+	}
+
+	/* get involved - content */
+	#involved_content p {
+		font-size: 1.8em;
+	}
+
+	#involved_content button {
+		font-size: 1.8em;
+		width: 30%;
+		margin-left: 41%;
+	}
+
+	#merchandise_content p {
+		font-size: 1.8em;
+	}
+
+	#merchandise_content button {
+		font-size: 1.8em;
+		width: 30%;
+		margin-left: 41%;
+	}
+
+	.col_links_bcg h2 {
+		font-size: 2.6em;
+		margin: 13% 0 7% 0 ;
+	}
+
+	#member_content p {
+		font-size: 1.8em;
+	}
+
+	/* get involved - contact form */
+	.contact_form {
+		font-size: 1.6em;
+	}
+
+	#submit {
+		width: 23%;
 	}
 }
 

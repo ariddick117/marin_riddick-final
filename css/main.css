@@ -442,6 +442,7 @@ h2, h3
 	line-height: 1em;
 	font-size: 1.2em;
 	margin-left: 10%;
+	margin-bottom: 10%;
 }
 
 .collapsible_4_content {
@@ -1066,6 +1067,22 @@ h2, h3
 		font-size: 1.8em;
 	}
 
+	.collapsible_3 {
+		height: 250px;
+	}
+
+	.collapsible_3_content p {
+		font-size: 1.8em;
+	}
+
+	.collapsible_4 {
+		height: 250px;
+	}
+
+	.collapsible_4_content p {
+		font-size: 1.8em;
+	}
+
 	.fa-chevron-down {
 		margin-left: 46%;
 		font-size: 4em;
@@ -1186,6 +1203,16 @@ h2, h3
 
 	#team_info h3 {
 		font-size: 2em;
+	}
+
+	/* projects - titles */
+	#projects_title {
+		font-size: 2.8em;
+	}
+
+	/* projects - content */
+	#projects_content p {
+		font-size: 1.8em;
 	}
 }
 

@@ -955,11 +955,10 @@ h2, h3
 	background-color: darkolivegreen;
 	color: white;
 	border-radius: 10px;
-	margin-left: 38%;
 	padding: 10px;
 	font-size: 1em;
 	font-weight: bold;
-	margin-top: 7%;
+	margin: 7% 0 10% 38%;
 }
 
 
@@ -1271,6 +1270,17 @@ h2, h3
 
 	#submit {
 		width: 23%;
+	}
+
+	/* newsletters - content */
+	#add_content p {
+		font-size: 1.8em;
+	}
+
+	#add_content button {
+		font-size: 1.8em;
+		width: 32%;
+		margin-left: 41%;
 	}
 }
 

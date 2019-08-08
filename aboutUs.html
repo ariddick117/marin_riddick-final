@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.1/css/all.css">
 	<link rel="stylesheet" href="css/reset.css">
@@ -20,6 +20,7 @@
 			<h2 class="hidden">Main Navigation</h2>
 
 			<!-- social media icons (header) -->
+			<!-- Facebook -->
 			<section id="social_media_header">
 				<h2 class="hidden">Social Media Icons</h2>
 				<div id="facebook_header">
@@ -27,6 +28,7 @@
 						<img src="images/facebook.png" alt="facebook icon" >
 					</a>
 				</div>
+		<!-- Email -->
 				<div id="email_header">
 					<a href="mailto:traa@anglers.org">
 						<img src="images/email_logo.png" alt="email icon">
@@ -56,105 +58,113 @@
 			</a>
 		</div>
 
-		<!-- Hero text -->
 		<div class="hero_text">
 			<h2 class="hero_title">WELCOME TO THE THAMES RIVER ANGLERS ASSOSIATION</h2>
 			<h3 class="hero_subtitle">For the enhancement, protection and promotion of a viable, multi-species fishery within the Thames River watershed.</h3>
 		</div>
 	</header>
 
-<!-- MAIN section starts -->
-	<main>
+  <!-- MAIN section starts -->
+  <main>
 
-	<!-- About section -->
-		<section id="about_section">
-			<h2 class="hidden">About the T.R.A.A.</h2>
-			<h2 id="about_title">ABOUT THE T.R.A.A.</h2>
-			<div class="section_division"></div>
-			<div id="about_image"></div>
-			<div id="about_content">
+    <!-- About intro -->
+    <section>
+      <h2 class="hidden">About the T.R.A.A.</h2>
+      <h2 id="about_title">WHO IS THE T.R.A.A.</h2>
+      <div class="section_division"></div>
+      <div id="about_content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris.
+        </p>
+      </div>
+    </section>
+
+    <!-- Events collapsibles -->
+    <section id="events_collapsibles">
+      <h2 class="hidden">Events details</h2>
+			<!-- Collapsible 1 -->
+      <div class="collapsible_1 col_event_bcg">
+				<h2>NAME OF EVENT</h2>
+				<h3>DATE</h3>
+				<i class="fas fa-chevron-down arrow_one"></i>
+			</div>
+			<div class="collapsible_1_content">
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris.
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris.
 				</p>
-				<button>READ MORE</button>
 			</div>
-		</section>
 
-	<!-- Events section -->
-		<section>
-			<h2 class="hidden">Events Section</h2>
-			<h2 id="events_title">UPCOMING EVENTS</h2>
-			<div class="section_division"></div>
-
-			<!-- Events carousel -->
-				<section id="carousel_controls"> <!-- Carousel controls -->
-					<h2 class="hidden">Carousel controls</h2>
-					<i style="z-index: 2" class="fas fa-chevron-left arrowsCon left" data-offset="0"></i>
-					<i style="z-index: 3" class="fas fa-chevron-right arrowsCon right" data-offset="1"></i>
-				</section>
-
-				<section id="carousel_container">
-					<h2 class="hidden">Events carousel</h2>
-				<div id="carousel_images" style="right: 0">
-					<img src="images/become_a_member.png" alt="T.R.A.A. volunteers working">
-					<img src="images/get_involved-memberships_info.png" alt="T.R.A.A. volunteer holding a trout">
-					<img src="images/projects-project_1-top.jpg" alt="Trout being measured">
-					<img src="images/projects-project_3.JPG" alt="T.R.A.A. searching for samples">
-					<img src="images/projects-project_2.jpg" alt="T.R.A.A. volunteers measuring a trout">
-				</div>
-			</section>
-
-		</section>
-
-	<!-- Membership section -->
-		<section>
-			<h2 class="hidden">Memberships section</h2>
-			<h2 id="memberships_title">BECOME A MEMBER TODAY</h2>
-			<div class="section_division"></div>
-			<div id="memberships_image"></div>
-			<div id="memberships_content">
+			<!-- Collapsible 2 -->
+      <div class="collapsible_2 col_event2_bcg">
+				<h2>NAME OF EVENT</h2>
+				<h3>DATE</h3>
+				<i class="fas fa-chevron-down arrow_two"></i>
+			</div>
+			<div class="collapsible_2_content">
 				<p>
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris.
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris.
 				</p>
-				<button>READ MORE</button>
 			</div>
-		</section>
 
-	<!-- Membership section -->
-	<section>
-		<h2 class="hidden">Sponsors section</h2>
-		<h2 id="sponsors_title">SPECIAL THANKS TO</h2>
-		<div class="section_division"></div>
-		<div id="sponsors_logos_container">
-			<!-- Guillevin -->
-			<a href="https://www.guillevin.com/default/" target="_blank">
-				<img id="guillevin" src="images/logo-guillevin.jpg" alt="Guillevin logo">
-			</a>
-			<!-- Melchers -->
-			<a href="https://www.melchersconstruction.com/" target="_blank">
-				<img id="melchers" src="images/logo-melchers.jpg" alt="Melchers logo">
-			</a>
-			<!-- Muma -->
-			<a href="http://www.mumamanufacturing.com/" target="_blank">
-				<img id="muma" src="images/logo-muma.jpg" alt="Muma logo">
-			</a>
-			<!-- Try Recycling -->
-			<a href="http://tryrecycling.com/" target="_blank">
-				<img id="recycling" src="images/logo-try_recycling.jpg" alt="Try recycling logo">
-			</a>
-			<!-- Angling Sports -->
-			<a href="https://anglingsports.ca/" target="_blank">
-				<img id="angling" src="images/logo-angling_sports.jpg" alt="Angling Sports logo">
-			</a>
-		</div>
-	</section>
-	</main>
+    </section>
 
-	<!-- FOOTER starts -->
+    <!-- Become a member section -->
+    <section>
+      <h2 class="hidden">Become a member!</h2>
+      <h2 id="about_title">BECOME A MEMBER TODAY</h2>
+      <div class="section_division"></div>
+      <div id="become_image"></div>
+      <div id="become_content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris.
+        </p>
+        <button>READ MORE</button>
+      </div>
+    </section>
+
+    <!-- Meet the team -->
+    <section>
+      <h2 class="hidden">Team members information</h2>
+      <h2 id="team_title">MEET THE TEAM</h2>
+      <div class="section_division"></div>
+      <div id="team_info">
+      <!-- member 1 -->
+          <img src="images/headshot_placeholder.jpg" alt="Team member photo">
+          <h2>NAME OF THE PERSON</h2>
+          <h3>TITLE</h3>
+
+      <!-- member 2 -->
+          <img src="images/headshot_placeholder.jpg" alt="Team member photo">
+          <h2>NAME OF THE PERSON</h2>
+          <h3>TITLE</h3>
+
+      <!-- member 3 -->
+          <img src="images/headshot_placeholder.jpg" alt="Team member photo">
+          <h2>NAME OF THE PERSON</h2>
+          <h3>TITLE</h3>
+
+      <!-- member 4 -->
+          <img src="images/headshot_placeholder.jpg" alt="Team member photo">
+          <h2>NAME OF THE PERSON</h2>
+          <h3>TITLE</h3>
+
+      <!-- member 5 -->
+          <img src="images/headshot_placeholder.jpg" alt="Team member photo">
+          <h2>NAME OF THE PERSON</h2>
+          <h3>TITLE</h3>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER starts -->
 	<footer id="main_footer">
 		<!-- social media icons (footer) -->
 		<section id="social_media_footer">

@@ -1,3 +1,4 @@
+/* -------GENERAL STYLING-------- */
 .hidden
 {
 	display: none;
@@ -6,4 +7,1286 @@
 img, embed, object, video
 {
 	max-width: 100%;
+}
+
+body
+{
+	font-family: Arial, sans-serif;
+	background-color: white;
+}
+
+a
+{
+  text-decoration: none;
+  transition:all .1s linear 0s;
+}
+
+h2, h3
+{
+	font-family: Georgia, serif; /*fix this eventually*/
+	color: black;
+}
+
+/* -------GENERAL HEADER + FOOTER + COLLAPSIBLES-------- */
+
+/* ----HEADER----- */
+#mainHeader {
+	background-image: url(../images/home-hero_image.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Burger Menu */
+
+.mainNav {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 50px;
+}
+
+.mainNav button {
+	margin-right: auto;
+}
+
+#burgerContent {
+	display: none;
+ 	margin-top: 20px;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#burgerContent.slideToggle {
+ display: block;
+}
+
+#mainNav button {
+  background: url(../images/burger.svg) center no-repeat;
+  border: 0;
+  width: 35px;
+  height: 35px;
+  transition: all 500ms ease;
+	margin: 5% 0 0 5%;
+}
+
+#mainNav button.expanded {
+/*  browser prefixes for transform*/
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+/*default transform*/
+  transform: rotate(90deg);
+}
+
+#mainNav li a {
+  display: block;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+#mainNav li {
+  border-bottom: 1px solid darkolivegreen;
+}
+
+#mainNav li:first-child {
+  border-top: 1px solid white;
+}
+
+#mainNAv li:last-child {
+  margin-bottom: 10px;
+}
+
+#mainNav li a:hover {
+  background-color: red;
+}
+
+/* Social Media Icons (header) */
+#social_media_header {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: 68%;
+}
+
+#facebook_header img {
+ 	width: 10%;
+ 	height: auto;
+	padding: 5px;
+	position: absolute;
+	margin: 3% 0 0 0;
+}
+
+#email_header img {
+	width: 10%;
+ 	height: auto;
+	padding: 5px;
+	position: absolute;
+	margin: 3% 0 0 15%;
+}
+
+/* #facebook_header img:hover {
+  	filter:drop-shadow(3px 3px 3px #5C5C5C);
+  	transition: all 0.2s ease;
+} */
+
+/* #email_header img:hover {
+  	filter:drop-shadow(3px 3px 3px #5C5C5C);
+  	transition: all 0.2s ease;
+} */
+
+/* Logo header */
+
+#logoHeader {
+	width: 25%;
+	height: auto;
+	position: relative;
+	padding: 0px;
+	margin-top: 0;
+	margin-left: 38%;
+}
+
+/* Hero text */
+.hero_text h2 {
+	font-size: 2.5em;
+	text-align: left;
+	margin-left: 10%;
+	color: black;
+	font-weight: bold;
+	margin-top: 10%;
+	font-family: arial, sans-serif;
+	line-height: 1.5em;
+}
+
+.hero_text h3 {
+	font-size: 1.3em;
+	text-align: left;
+	padding-left: 10%;
+	color: black;
+	margin-top: 7%;
+	line-height: 1.5em;
+	width: 80%;
+	padding-bottom: 10%;
+	font-family: arial, sans-serif;
+}
+
+/* ---- FOOTER ----- */
+/* Footer background  */
+#main_footer {
+	background-image: url(../images/footer_bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* Social Media Icons (footer) */
+#social_media_footer {
+	display: flex;
+	flex-direction: column;
+	margin-left: 8%;
+	padding-top: 2%;
+}
+
+#facebook_footer img {
+ 	width: 12%;
+ 	height: auto;
+	padding: 5px;
+	position: relative;
+}
+
+#email_footer img {
+	width: 12%;
+ 	height: auto;
+	padding: 5px;
+	position: relative;
+}
+
+/* #facebook_footer img:hover {
+  	filter:drop-shadow(3px 3px 3px #5C5C5C);
+  	transition: all 0.2s ease;
+} */
+
+/* #email_footer img:hover {
+  	filter:drop-shadow(3px 3px 3px #5C5C5C);
+  	transition: all 0.2s ease;
+} */
+
+/* Logo footer */
+
+#logoFooter img {
+	width: 25%;
+	height: auto;
+	position: absolute;
+	padding: 0px;
+	margin-top: -30%;
+	margin-left: 38%;
+}
+
+#back_to_top a {
+	color: white;
+	margin-left: 70%;
+	margin-top: -21%;
+	margin-bottom: 20%;
+	position: absolute;
+}
+
+/* Copyrights */
+
+#copyrights {
+	width: 100%;
+	height: auto;
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 30%;
+}
+
+#copyrights h3 {
+	color: white;
+	font-size: .8em;
+	font-family: Arial, sans-serif;
+	padding: 20px 0 20px 0;
+}
+
+/* ---- COLLAPSIBLES ----- */
+
+/* Collapsible 1 */
+.collapsible_1 {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 150px;
+	margin: 10% 0 10% 0;
+}
+
+.collapsible_1 h2 {
+	font-family: arial, sans-serif;
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 0 5% 0;
+	padding-top: 5%;
+}
+
+.collapsible_1 h3 {
+	font-family: arial, sans-serif;
+	color: white;
+	font-size: 1.8em;
+	font-style: italic;
+	text-align: center;
+}
+
+.collapsible_1_content {
+	width: 90%;
+	height: auto;
+}
+
+.collapsible_1_content p {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: justify;
+	line-height: 1em;
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
+.collapsible_1_content {
+	display: none;
+ 	margin-top: 20px;
+}
+
+.collapsible_1_content.slideToggle {
+ display: block;
+}
+
+/* Collapsible 2 */
+.collapsible_2 {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 150px;
+	margin: 10% 0 10% 0;
+}
+
+.collapsible_2 h2 {
+	font-family: arial, sans-serif;
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 0 5% 0;
+	padding-top: 5%;
+}
+
+.collapsible_2 h3 {
+	font-family: arial, sans-serif;
+	color: white;
+	font-size: 1.8em;
+	font-style: italic;
+	text-align: center;
+}
+
+.collapsible_2_content {
+	width: 90%;
+	height: auto;
+}
+
+.collapsible_2_content p {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: justify;
+	line-height: 1em;
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
+.collapsible_2_content {
+	display: none;
+ 	margin-top: 20px;
+}
+
+.collapsible_2_content.slideToggle {
+ display: block;
+}
+
+/* Collapsible 3 */
+.collapsible_3 {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 150px;
+	margin: 10% 0 10% 0;
+}
+
+.collapsible_3 h2 {
+	font-family: arial, sans-serif;
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 0 5% 0;
+	padding-top: 5%;
+}
+
+.collapsible_3 h3 {
+	font-family: arial, sans-serif;
+	color: white;
+	font-size: 1.8em;
+	font-style: italic;
+	text-align: center;
+}
+
+.collapsible_3_content {
+	width: 90%;
+	height: auto;
+}
+
+.collapsible_3_content p {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: justify;
+	line-height: 1em;
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
+.collapsible_3_content {
+	display: none;
+ 	margin-top: 20px;
+}
+
+.collapsible_3_content.slideToggle {
+ display: block;
+}
+
+/* Collapsible 4 */
+.collapsible_4 {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 150px;
+	margin: 10% 0 10% 0;
+}
+
+.collapsible_4 h2 {
+	font-family: arial, sans-serif;
+	color: white;
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 0 5% 0;
+	padding-top: 5%;
+}
+
+.collapsible_4 h3 {
+	font-family: arial, sans-serif;
+	color: white;
+	font-size: 1.8em;
+	font-style: italic;
+	text-align: center;
+}
+
+.collapsible_4_content {
+	width: 90%;
+	height: auto;
+}
+
+.collapsible_4_content p {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: justify;
+	line-height: 1em;
+	font-size: 1.2em;
+	margin-left: 10%;
+	margin-bottom: 10%;
+}
+
+.collapsible_4_content {
+	display: none;
+ 	margin-top: 20px;
+}
+
+.collapsible_4_content.slideToggle {
+ display: block;
+}
+
+/* Collapsible arrow */
+.fa-chevron-down {
+	margin-left: 46%;
+	font-size: 2em;
+	color: white;
+	margin-top: 4%;
+	cursor: pointer;
+	transition: all 500ms ease;
+}
+
+.fa-chevron-down.expanded {
+/*  browser prefixes for transform*/
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+/*default transform*/
+  transform: rotate(180deg);
+}
+
+/* ------- INDEX STYLING -------- */
+
+/* ----MAIN----- */
+/* About section */
+#about_title {
+	font-family: arial, sans-serif;
+	font-size: 2em;
+	color: black;
+	margin: 60px 0 40px 0;
+	text-align: center;
+}
+
+.section_division {
+	background-color: darkolivegreen;
+	margin-left: 32%;
+	margin-bottom: 10%;
+	width: 37%;
+	height: 7px;
+}
+
+#about_image {
+	background-image: url(../images/home-about-featured_image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 150px;
+	margin: 10% 0 10% 0;
+}
+
+#about_content {
+	width: 90%;
+	height: auto;
+}
+
+#about_content p {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: justify;
+	line-height: 1em;
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
+#about_content button {
+	width: 35%;
+	height: auto;
+	background-color: darkolivegreen;
+	color: white;
+	border-radius: 10px;
+	margin-left: 38%;
+	padding: 10px;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 7%;
+}
+
+/* Events section */
+#events_title {
+	font-family: arial, sans-serif;
+	font-size: 2em;
+	color: black;
+	margin: 60px 0 40px 0;
+	text-align: center;
+}
+
+/* ---EVENTS CAROUSEL--- */
+#carousel_container {
+	width: 100%;
+	height: 260px;
+	background-color: darkolivegreen;
+	margin: 0 auto;
+	overflow: hidden;
+	filter: brightness(50%);
+}
+
+#carousel_images {
+	position:relative;
+	width:4000px;
+	transition: all .5s;
+}
+
+#carousel_images img {
+	float:left;
+}
+
+#carousel_controls {
+	/* margin-top: 10%; */
+	display: flex;
+	flex-direction: row;
+}
+
+.fa-chevron-left {
+	margin: 30% 0 0 4%;
+	font-size: 3em;
+	color: white;
+	cursor: pointer;
+	position: absolute;
+
+}
+
+.fa-chevron-right {
+	margin: 30% 0 0 86%;
+	font-size: 3em;
+	color: white;
+	cursor: pointer;
+	position: absolute;
+}
+
+
+
+/* membership section */
+#memberships_title {
+	font-family: arial, sans-serif;
+	font-size: 1.6em;
+	color: black;
+	margin: 60px 0 40px 0;
+	text-align: center;
+}
+
+#memberships_image {
+	background-image: url(../images/projects-project_3.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 150px;
+	margin: 10% 0 10% 0;
+}
+
+#memberships_content {
+	width: 90%;
+	height: auto;
+}
+
+#memberships_content p {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: justify;
+	line-height: 1em;
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
+#memberships_content button {
+	width: 35%;
+	height: auto;
+	background-color: darkolivegreen;
+	color: white;
+	border-radius: 10px;
+	margin-left: 38%;
+	padding: 10px;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 7%;
+}
+
+/* Sponsors section */
+#sponsors_title {
+	font-family: arial, sans-serif;
+	font-size: 1.6em;
+	color: black;
+	margin: 60px 0 40px 0;
+	text-align: center;
+}
+
+#sponsors_logos_container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#sponsors_logos_container img {
+	padding: 20px 0 20px 0;
+}
+
+/* ------- ABOUT US STYLING -------- */
+/* Collapsible 1 bcg img */
+.col_event_bcg {
+	background-image: url(../images/about-project_1.png);
+}
+
+/* Collapsible 2 bcg img */
+.col_event2_bcg {
+	background-image: url(../images/projects-project_2.png);
+}
+/* become a member section */
+#become_image {
+	background-image: url(../images/projects-project_3.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 150px;
+	margin: 10% 0 10% 0;
+}
+
+#become_content {
+	width: 90%;
+	height: auto;
+}
+
+#become_content p {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: justify;
+	line-height: 1em;
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
+#become_content button {
+	width: 35%;
+	height: auto;
+	background-color: darkolivegreen;
+	color: white;
+	border-radius: 10px;
+	margin-left: 38%;
+	padding: 10px;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 7%;
+}
+
+/* meet the team section */
+#team_title {
+	font-family: arial, sans-serif;
+	font-size: 2em;
+	color: black;
+	margin: 60px 0 40px 0;
+	text-align: center;
+}
+
+#team_info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#team_info img {
+	width: 50%;
+	height: auto;
+	border-radius: 50%;
+	align-items: center;
+	margin: 5%;
+}
+
+#team_info h2 {
+	font-family: arial, sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	margin: 5%;
+}
+
+#team_info h3 {
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+	font-style: italic;
+	text-align: center;
+	margin-bottom: 5%;
+}
+
+/* ------- CONTACT US STYLING -------- */
+
+/* Become a member section */
+#member_title {
+	font-family: arial, sans-serif;
+	font-size: 1.7em;
+	color: black;
+	margin: 60px 0 40px 0;
+	text-align: center;
+}
+
+#member_content {
+	width: 90%;
+	height: auto;
+}
+
+#member_content p {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: justify;
+	line-height: 1em;
+	font-size: 1.2em;
+	margin-left: 10%;
+	margin-bottom: 10%;
+}
+
+/* Contact map */
+.contact_map {
+	background-color: black;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw;
+	position: relative;
+	left: 50%;
+	right: 50%;
+	width: 100vw;
+	height: 450px;
+	margin-bottom: 10%;
+}
+
+/* Contact form */
+.contact_form {
+  margin-top: 20px;
+  font-weight: bold;
+	margin-left: 5%;
+}
+
+.contact_form input, textarea  {
+  font-size: .8em;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 10px;
+  width: 90%;
+  height: 5%;
+  background-color: lightgrey;
+  display: block;
+  color: black;
+  border: lightgrey;
+}
+
+#message {
+  font-size: .8em;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 10px;
+  width: 90%;
+  height: 40%;
+  background-color: lightgrey;
+  display: block;
+  color: black;
+}
+
+#submit {
+  font-size: 1.25em;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 10px;
+  width: 30%;
+  height: auto;
+  display: block;
+  color: white;
+  border: white;
+  font-weight: bold;
+  background-color: darkolivegreen;
+  cursor: pointer;
+	border-radius: 10px;
+}
+
+/* #submit:hover {
+	background-color: white;
+	color: #667333;
+	filter:drop-shadow(3px 3px 3px #5C5C5C);
+	transition: all 0.3s ease;
+} */
+
+/* ------- GET INVOLVED STYLING -------- */
+
+/* How to get involved section */
+
+#involved_image {
+	background-image: url(../images/get_involved-memberships_info.JPG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	width: 100%;
+	height: 150px;
+	margin: 10% 0 10% 0;
+}
+
+#involved_content {
+	width: 90%;
+	height: auto;
+}
+
+#involved_content p {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: justify;
+	line-height: 1em;
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
+#involved_content button {
+	width: 35%;
+	height: auto;
+	background-color: darkolivegreen;
+	color: white;
+	border-radius: 10px;
+	margin-left: 38%;
+	padding: 10px;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 7%;
+}
+
+/* Merchandise section */
+#merchandise_image {
+	background-image: url(../images/merchandise.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	width: 100%;
+	height: 150px;
+	margin: 10% 0 10% 0;
+}
+
+#merchandise_content {
+	width: 90%;
+	height: auto;
+}
+
+#merchandise_content p {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: justify;
+	line-height: 1em;
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
+#merchandise_content button {
+	width: 35%;
+	height: auto;
+	background-color: darkolivegreen;
+	color: white;
+	border-radius: 10px;
+	margin-left: 38%;
+	padding: 10px;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 7%;
+}
+
+/* --Useful links section-- */
+
+/* Collapsible 1 bcg img*/
+.col_links_bcg {
+	background-image: url(../images/get_involved-links-section.png);
+}
+
+/* ------- NEWSLETTERS STYLING -------- */
+
+/* newsletter library section  */
+#library_content {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 90%;
+	height: auto;
+	flex-wrap: wrap;
+	margin-left: 5%;
+}
+
+#library_content img {
+	width: 50%;
+	height: auto;
+}
+
+/* add more section */
+#add_content {
+	width: 90%;
+	height: auto;
+}
+
+#add_content p {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: justify;
+	line-height: 1em;
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
+#add_content button {
+	width: 35%;
+	height: auto;
+	background-color: darkolivegreen;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 7% 0 10% 38%;
+}
+
+
+/* ------- PROJECTS STYLING -------- */
+/* projects and events section */
+
+#projects_title {
+	font-family: arial, sans-serif;
+	font-size: 1.8em;
+	color: black;
+	margin: 60px 0 40px 0;
+	text-align: center;
+}
+
+#projects_content {
+	width: 90%;
+	height: auto;
+}
+
+#projects_content p {
+	font-family: arial, sans-serif;
+	color: black;
+	text-align: justify;
+	line-height: 1em;
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
+/* collapsible 1 bcg img*/
+.col_proj_bcg {
+	background-image: url(../images/projects-project_1.png);
+}
+
+/* collapsible 2 bcg img*/
+.col_proj2_bcg {
+	background-image: url(../images/projects-project_2.png);
+}
+
+/* collapsible 3 bcg img*/
+.col_proj3_bcg {
+	background-image: url(../images/projects-project_3.png);
+}
+
+/* collapsible 4 bcg img*/
+.col_proj4_bcg {
+	background-image: url(../images/projects-project_4.png);
+}
+
+/* --------MEDIA QUERIES-------- */
+
+/* media query for 420px */
+@media screen and (min-width: 26.25em) {
+	.fa-chevron-right, .fa-chevron-left {
+		margin-top: 23%
+	}
+}
+
+/* media query for 500px */
+@media screen and (min-width: 31.25em) {
+	.fa-chevron-right, .fa-chevron-left {
+		margin-top: 19%
+	}
+}
+
+/* media query for 685px */
+@media screen and (min-width: 42.8125em) {
+	/* general - hamburger menu */
+	#mainNav button {
+		width: 7%;
+	}
+
+	/* general - social media icons */
+	#facebook_header img {
+		width: 9%;
+	}
+
+	#email_header img {
+		width: 9%;
+	}
+
+	/* general - hamburger menu */
+	#burgerContent ul {
+		margin-top: 7%;
+	}
+
+	#mainNav li a {
+		font-size: 1.65em;
+	}
+
+	/* general - hero text  */
+	.hero_text h2 {
+		font-size: 3.5em;
+		width: 80%;
+	}
+
+	.hero_text h3 {
+		font-size: 1.8em;
+	}
+
+	/* general - collapsibles */
+	.collapsible_1 {
+		height: 250px;
+	}
+
+	.collapsible_1_content p {
+		font-size: 1.8em;
+	}
+
+	.collapsible_2 {
+		height: 250px;
+	}
+
+	.collapsible_2_content p {
+		font-size: 1.8em;
+	}
+
+	.collapsible_3 {
+		height: 250px;
+	}
+
+	.collapsible_3_content p {
+		font-size: 1.8em;
+	}
+
+	.collapsible_4 {
+		height: 250px;
+	}
+
+	.collapsible_4_content p {
+		font-size: 1.8em;
+	}
+
+	.fa-chevron-down {
+		margin-left: 46%;
+		font-size: 4em;
+
+	}
+
+	/* index - section titles */
+	#about_title {
+		font-size: 3em;
+	}
+
+	/* index - content text */
+	#about_content p {
+		font-size: 1.8em;
+	}
+
+	#about_content button {
+		font-size: 1.8em;
+		width: 30%;
+		margin-left: 41%;
+	}
+
+	#events_title {
+		font-size: 3em;
+		margin: 10% 0 5% 0;
+	}
+
+	#memberships_title {
+		font-size: 3em;
+		margin: 10% 0 5% 0;
+	}
+
+	#memberships_content p {
+		font-size: 1.8em;
+	}
+
+	#memberships_content button {
+		font-size: 1.8em;
+		width: 30%;
+		margin-left: 41%;
+	}
+
+	#sponsors_title {
+		font-size: 3em;
+		margin: 10% 0 5% 0;
+	}
+
+	/* general - footer copyrights */
+	#copyrights h3 {
+		font-size: 1.2em;
+	}
+
+	/* general - footer logo + social media */
+	#logoFooter img {
+		margin-top: -26%;
+	}
+
+	#facebook_footer img {
+		width: 11%;
+	}
+
+	#email_footer img {
+		width: 11%;
+	}
+
+	/* general - footer back to top */
+	#back_to_top a {
+		margin-left: 78%;
+	}
+
+	/* index - images */
+	#about_image {
+		height: 300px;
+	}
+
+	#memberships_image {
+		height: 300px;
+	}
+
+	/* index - carousel */
+	.fa-chevron-right, .fa-chevron-left {
+		margin-top: 19%
+	}
+	.fa-chevron-right {
+		margin-left: 91%;
+	}
+
+	#carousel_container {
+		height: 350px;
+	}
+
+	/* about - images  */
+	#become_image {
+		height: 300px;
+	}
+
+	/* about - titles */
+	#team_title {
+		font-size: 3em;
+		margin: 10% 0 5% 0;
+	}
+
+	/* about - content */
+	#become_content p {
+		font-size: 1.8em;
+	}
+
+	#become_content button {
+		font-size: 1.8em;
+		width: 30%;
+		margin-left: 41%;
+	}
+
+	/* about - team info */
+	#team_info h2 {
+		font-size: 2.5em;
+	}
+
+	#team_info h3 {
+		font-size: 2em;
+	}
+
+	/* projects - titles */
+	#projects_title {
+		font-size: 2.8em;
+	}
+
+	/* projects - content */
+	#projects_content p {
+		font-size: 1.8em;
+	}
+
+	/* get involved - images */
+	#involved_image {
+		height: 300px;
+	}
+
+	/* get involved - titles */
+	#member_title {
+		font-size: 2.8em;
+	}
+
+	/* get involved - content */
+	#involved_content p {
+		font-size: 1.8em;
+	}
+
+	#involved_content button {
+		font-size: 1.8em;
+		width: 30%;
+		margin-left: 41%;
+	}
+
+	#merchandise_content p {
+		font-size: 1.8em;
+	}
+
+	#merchandise_content button {
+		font-size: 1.8em;
+		width: 30%;
+		margin-left: 41%;
+	}
+
+	.col_links_bcg h2 {
+		font-size: 2.6em;
+		margin: 13% 0 7% 0 ;
+	}
+
+	#member_content p {
+		font-size: 1.8em;
+	}
+
+	/* get involved - contact form */
+	.contact_form {
+		font-size: 1.6em;
+	}
+
+	#submit {
+		width: 23%;
+	}
+
+	/* newsletters - content */
+	#add_content p {
+		font-size: 1.8em;
+	}
+
+	#add_content button {
+		font-size: 1.8em;
+		width: 32%;
+		margin-left: 41%;
+	}
+}
+
+/* media query for 920px */
+@media screen and (min-width: 57.5em) {
+	.fa-chevron-right, .fa-chevron-left {
+		margin-top: 10%
+	}
 }

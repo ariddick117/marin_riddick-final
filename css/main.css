@@ -1018,12 +1018,31 @@ h2, h3
 
 /* media query for 500px */
 @media screen and (min-width: 31.25em) {
+	/* general - collapsibles */
 	.fa-chevron-right, .fa-chevron-left {
 		margin-top: 19%
 	}
+
+	/* index - images */
+	#about_image {
+		height: 260px;
+	}
+
+	#memberships_image {
+		height: 260px;
+	}
+
+	/* index - content */
+	#about_content button {
+		font-size: 1.3em;
+	}
+
+	#memberships_content button {
+		font-size: 1.3em;
+	}
 }
 
-/* media query for 685px */
+/* media query for 685px (tablet) */
 @media screen and (min-width: 42.8125em) {
 	/* general - hamburger menu */
 	#mainNav button {
@@ -1288,5 +1307,488 @@ h2, h3
 @media screen and (min-width: 57.5em) {
 	.fa-chevron-right, .fa-chevron-left {
 		margin-top: 10%
+	}
+}
+
+/* media query for 1024px (desktop)*/
+@media screen and (min-width: 64em) {
+	/* general - navbar */
+	#mainNav button {
+		display: none;
+	}
+
+	#logoHeader {
+		width: 14%;
+		margin-top: 5%;
+		margin-left: 4%;
+		position: absolute;
+	}
+
+  #button {
+    display: none;
+  }
+
+  #burgerContent {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+
+  #mainNav {
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 0.85em;
+		margin-left: 20%;
+  }
+
+  #burgerMenu {
+    text-align: right;
+  }
+
+  #mainNav li {
+    display: inline;
+    border-bottom: none;
+		margin-left: 20px;
+  }
+
+  #mainNav li a {
+    background-color: transparent;
+    display: inline;
+    padding: 5px 0;
+    text-decoration: none;
+    color: black;
+		font-size: 1.2em;
+  }
+
+  /* #mainNav li a:hover {
+    color: #8fa777;
+    border-bottom: 3px solid #8fa771;
+    padding-bottom: 5px;
+    background-color: transparent;
+  } */
+
+  #mainNav li:first-child {
+    border-top: none;
+  }
+
+  #mainNav li:last-child {
+    margin-top: 0;
+  }
+
+	#burgerContent {
+		background-color: transparent;
+	}
+
+	#burgerContent ul {
+		position: absolute;
+		margin-top: 11%;
+		margin-left: 6%;
+	}
+
+	/* general - social media header */
+	#facebook_header img {
+		width: 4%;
+	}
+
+	#email_header img {
+		width: 4%;
+		margin-left: 0%;
+	}
+
+	#social_media_header {
+		margin-left: 71%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+
+	/* general - hero text */
+	.hero_text h2 {
+		margin-left: 5%;
+		margin-top: 30%;
+		font-size: 3.0em;
+	}
+
+	.hero_text h3 {
+		margin-top: 4%;
+		margin-left: -5%;
+		width: 65%;
+	}
+
+	/* general - titles */
+	#about_title {
+		font-size: 2em;
+	}
+
+	#events_title {
+		font-size: 2em;
+		margin: 10% 0 5% 0;
+	}
+
+	#memberships_title {
+		font-size: 2em;
+		margin: 10% 0 5% 0;
+	}
+
+	#sponsors_title {
+		font-size: 2em;
+		margin: 10% 0 5% 0;
+	}
+
+	#team_title {
+		font-size: 2em;
+		margin: 0% 0 5% 0;
+	}
+
+	#projects_title {
+		font-size: 2.8em;
+	}
+
+	#member_title {
+		font-size: 2.8em;
+	}
+
+	/* general - section division */
+	.section_division {
+		margin: 9% 0 -6% 42%;
+		width: 17%;
+	}
+
+	/* general - desktop footer nav */
+	#footerNav {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin-left: 29%;
+		margin-top: 8%;
+	}
+
+	#footerNav li a {
+		text-decoration: none;
+		color: white;
+	}
+
+	#footerNav a {
+		font-size: 0.8em;
+	}
+
+	#logoFooter img {
+		width: 14%;
+		margin-top: -2%;
+		margin-left: 4%;
+		position: absolute;
+	}
+
+	#facebook_footer img {
+		width: 4%;
+		position: absolute;
+		margin-left: 4%;
+	}
+
+	#email_footer img {
+		width: 4%;
+		margin-left: 0%;
+		position: absolute;
+	}
+
+	#social_media_footer {
+		margin-left: 71%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		padding-top: 3%;
+	}
+
+	#back_to_top a {
+		display: none;
+	}
+
+	/* general - collapsibles */
+	.fa-chevron-down {
+		margin-top: 5%;
+	}
+
+	.collapsible_1 h3 {
+		margin-right: 2%;
+	}
+
+	.collapsible_2 h3 {
+		margin-right: 2%;
+	}
+
+	.collapsible_3 h3 {
+		margin-right: 2%;
+	}
+
+	.collapsible_4 h3 {
+		margin-right: 2%;
+	}
+
+	.collapsible_1 h2 {
+		margin: 0 0 4% 0;
+		padding-top: 11%;
+	}
+
+	.collapsible_2 h2 {
+		margin: 0 0 4% 0;
+		padding-top: 11%;
+	}
+
+	.collapsible_3 h2 {
+		margin: 0 0 4% 0;
+		padding-top: 11%;
+	}
+
+	.collapsible_4 h2 {
+		margin: 0 0 4% 0;
+		padding-top: 11%;
+	}
+
+	.collapsible_1 {
+		height: 350px;
+	}
+
+	.collapsible_2 {
+		height: 350px;
+	}
+
+	.collapsible_3 {
+		height: 350px;
+	}
+
+	.collapsible_4 {
+		height: 350px;
+	}
+
+	/* index - about section */
+	.about_flex {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+
+	#about_content p {
+		font-size: 1.3em;
+		line-height:1.3em;
+		width: 76%;
+		margin-top: 31%;
+	}
+
+	#about_content button {
+		font-size: 1.3em;
+		margin-left: 53%;
+		border-radius: 5px;
+		width: 32%;
+	}
+
+	/* index - carousel */
+	#carousel_container {
+		width: 90%;
+	}
+
+	.fa-chevron-left {
+		margin-left: 7%;
+		margin-top: 14%;
+	}
+
+	.fa-chevron-right {
+		margin-top: 14%;
+	}
+
+	/* index - membership */
+	.member_flex {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+
+	#memberships_image {
+		order: 1;
+	}
+
+	#memberships_content p {
+		font-size: 1.3em;
+		line-height:1.3em;
+		width: 76%;
+		margin-top: 31%;
+	}
+
+	#memberships_content button {
+		font-size: 1.3em;
+		margin-left: 10%;
+		border-radius: 5px;
+		width: 32%;
+	}
+
+	/* index - sponsors */
+	#sponsors_logos_container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		width: 90%;
+		margin-top: 11%;
+		margin-left: 5%;
+		margin-bottom: 5%;
+	}
+
+	/* about - intro */
+	.about_content_desktop p {
+		margin-top: 16% !important;
+		margin-left: 18% !important;
+	}
+
+	/* about - become a member */
+	.about_member_flex {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+
+	#become_content p {
+		font-size: 1.3em;
+		line-height:1.3em;
+		width: 76%;
+		margin-top: 31%;
+	}
+
+	#become_content button {
+		font-size: 1.3em;
+		margin-left: 53%;
+		border-radius: 5px;
+		width: 32%;
+	}
+
+	/* about - meet the team section */
+	#team_info {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+		width: 80%;
+		margin-top: 8%;
+		margin-left: 7%;
+	}
+
+	.team_info_1 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.team_info_2 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.team_info_3 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.team_info_4 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.team_info_5 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#team_info img {
+		width: 15%;
+		margin-left: 10%;
+		margin-right: 0%;
+	}
+
+	#team_info h2 {
+		font-size: 1em;
+		margin-left: 0%;
+		margin-right: 0%;
+		padding-left: 24px;
+	}
+
+	#team_info h3 {
+		font-size: 1em;
+		margin-right: 56%;
+	}
+
+	/* projects - content */
+	#projects_content p {
+		margin-top: 14%;
+	}
+
+	/* get involved - intro */
+	.involved_flex {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin-bottom: -6%;
+	}
+
+	#involved_content p {
+		font-size: 1.3em;
+		line-height:1.3em;
+		width: 76%;
+		margin-top: 31%;
+	}
+
+	#involved_content button {
+		font-size: 1.3em;
+		margin-left: 53%;
+		border-radius: 5px;
+		width: 32%;
+	}
+
+
+	/* get involved - merchandise  */
+	.merch_flex {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin-bottom: -6%;
+	}
+
+	#merchandise_image {
+		order: 1;
+		height: 300px;
+	}
+
+	#merchandise_content p {
+		font-size: 1.3em;
+		line-height:1.3em;
+		width: 76%;
+		margin-top: 31%;
+	}
+
+	#merchandise_content button {
+		font-size: 1.3em;
+		margin-left: 10%;
+		border-radius: 5px;
+		width: 32%;
+	}
+
+	/* get involved - contact form */
+	#member_content p {
+		margin-top: 11%;
+	}
+
+	.contact_form input, textarea {
+		margin-top: 2%;
+		height: 30px;
+	}
+
+	#message {
+		margin-top: 2%;
+		height: 300px;
+	}
+
+	#submit {
+		width: 17%;
+	}
+
+	/* newsletters - add section */
+	#add_content p {
+		margin-top: 14%;
 	}
 }

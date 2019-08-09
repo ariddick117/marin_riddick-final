@@ -1505,7 +1505,7 @@ h2, h3
 
 	/* general - collapsibles */
 	.fa-chevron-down {
-		margin-top: 1%;
+		margin-top: 5%;
 	}
 
 	.collapsible_1 h3 {
@@ -1522,6 +1522,42 @@ h2, h3
 
 	.collapsible_4 h3 {
 		margin-right: 2%;
+	}
+
+	.collapsible_1 h2 {
+		margin: 0 0 4% 0;
+		padding-top: 11%;
+	}
+
+	.collapsible_2 h2 {
+		margin: 0 0 4% 0;
+		padding-top: 11%;
+	}
+
+	.collapsible_3 h2 {
+		margin: 0 0 4% 0;
+		padding-top: 11%;
+	}
+
+	.collapsible_4 h2 {
+		margin: 0 0 4% 0;
+		padding-top: 11%;
+	}
+
+	.collapsible_1 {
+		height: 350px;
+	}
+
+	.collapsible_2 {
+		height: 350px;
+	}
+
+	.collapsible_3 {
+		height: 350px;
+	}
+
+	.collapsible_4 {
+		height: 350px;
 	}
 
 	/* index - about section */
@@ -1675,5 +1711,10 @@ h2, h3
 	#team_info h3 {
 		font-size: 1em;
 		margin-right: 56%;
+	}
+
+	/* projects - content */
+	#projects_content p {
+		margin-top: 14%;
 	}
 }

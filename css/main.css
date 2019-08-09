@@ -1437,7 +1437,7 @@ h2, h3
 
 	#team_title {
 		font-size: 2em;
-		margin: 10% 0 5% 0;
+		margin: 0% 0 5% 0;
 	}
 
 	#projects_title {
@@ -1501,6 +1501,27 @@ h2, h3
 
 	#back_to_top a {
 		display: none;
+	}
+
+	/* general - collapsibles */
+	.fa-chevron-down {
+		margin-top: 1%;
+	}
+
+	.collapsible_1 h3 {
+		margin-right: 2%;
+	}
+
+	.collapsible_2 h3 {
+		margin-right: 2%;
+	}
+
+	.collapsible_3 h3 {
+		margin-right: 2%;
+	}
+
+	.collapsible_4 h3 {
+		margin-right: 2%;
 	}
 
 	/* index - about section */
@@ -1573,5 +1594,86 @@ h2, h3
 		margin-top: 11%;
 		margin-left: 5%;
 		margin-bottom: 5%;
+	}
+
+	/* about - intro */
+	.about_content_desktop p {
+		margin-top: 16% !important;
+		margin-left: 18% !important;
+	}
+
+	/* about - become a member */
+	.about_member_flex {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+
+	#become_content p {
+		font-size: 1.3em;
+		line-height:1.3em;
+		width: 76%;
+		margin-top: 31%;
+	}
+
+	#become_content button {
+		font-size: 1.3em;
+		margin-left: 53%;
+		border-radius: 5px;
+		width: 32%;
+	}
+
+	/* about - meet the team section */
+	#team_info {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+		width: 80%;
+		margin-top: 8%;
+		margin-left: 7%;
+	}
+
+	.team_info_1 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.team_info_2 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.team_info_3 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.team_info_4 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.team_info_5 {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#team_info img {
+		width: 15%;
+		margin-left: 10%;
+		margin-right: 0%;
+	}
+
+	#team_info h2 {
+		font-size: 1em;
+		margin-left: 0%;
+		margin-right: 0%;
+		padding-left: 24px;
+	}
+
+	#team_info h3 {
+		font-size: 1em;
+		margin-right: 56%;
 	}
 }

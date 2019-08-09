@@ -1717,4 +1717,78 @@ h2, h3
 	#projects_content p {
 		margin-top: 14%;
 	}
+
+	/* get involved - intro */
+	.involved_flex {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin-bottom: -6%;
+	}
+
+	#involved_content p {
+		font-size: 1.3em;
+		line-height:1.3em;
+		width: 76%;
+		margin-top: 31%;
+	}
+
+	#involved_content button {
+		font-size: 1.3em;
+		margin-left: 53%;
+		border-radius: 5px;
+		width: 32%;
+	}
+
+
+	/* get involved - merchandise  */
+	.merch_flex {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		margin-bottom: -6%;
+	}
+
+	#merchandise_image {
+		order: 1;
+		height: 300px;
+	}
+
+	#merchandise_content p {
+		font-size: 1.3em;
+		line-height:1.3em;
+		width: 76%;
+		margin-top: 31%;
+	}
+
+	#merchandise_content button {
+		font-size: 1.3em;
+		margin-left: 10%;
+		border-radius: 5px;
+		width: 32%;
+	}
+
+	/* get involved - contact form */
+	#member_content p {
+		margin-top: 11%;
+	}
+
+	.contact_form input, textarea {
+		margin-top: 2%;
+		height: 30px;
+	}
+
+	#message {
+		margin-top: 2%;
+		height: 300px;
+	}
+
+	#submit {
+		width: 17%;
+	}
+
+	/* newsletters - add section */
+	#add_content p {
+		margin-top: 14%;
+	}
 }

@@ -312,6 +312,7 @@ h2, h3
 
 .collapsible_1_content.slideToggle {
  display: block;
+ margin-top: -10%;
 }
 
 /* Collapsible 2 */
@@ -812,8 +813,10 @@ h2, h3
 
 /* Become a member section */
 #member_title {
-	font-family: arial, sans-serif;
-	font-size: 1.7em;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 2em;
 	color: black;
 	margin: 10% 0 5% 0;
 	text-align: center;
@@ -825,13 +828,14 @@ h2, h3
 }
 
 #member_content p {
-	font-family: arial, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	color: black;
 	text-align: justify;
-	line-height: 1em;
+	line-height: 1.2em;
 	font-size: 1.2em;
 	margin-left: 10%;
-	margin-bottom: 10%;
 }
 
 /* Contact map */
@@ -862,10 +866,10 @@ h2, h3
   padding: 10px;
   width: 90%;
   height: 5%;
-  background-color: lightgrey;
+  background-color: #EDEDED;
   display: block;
   color: black;
-  border: lightgrey;
+  border: #EDEDED;
 }
 
 #message {
@@ -875,7 +879,7 @@ h2, h3
   padding: 10px;
   width: 90%;
   height: 40%;
-  background-color: lightgrey;
+  background-color: #EDEDED;
   display: block;
   color: black;
 }
@@ -923,10 +927,12 @@ h2, h3
 }
 
 #involved_content p {
-	font-family: arial, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	color: black;
 	text-align: justify;
-	line-height: 1em;
+	line-height: 1.2em;
 	font-size: 1.2em;
 	margin-left: 10%;
 }
@@ -961,10 +967,12 @@ h2, h3
 }
 
 #merchandise_content p {
-	font-family: arial, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	color: black;
 	text-align: justify;
-	line-height: 1em;
+	line-height: 1.2em;
 	font-size: 1.2em;
 	margin-left: 10%;
 }
@@ -987,6 +995,20 @@ h2, h3
 /* Collapsible 1 bcg img*/
 .col_links_bcg {
 	background-image: url(../images/get_involved-links-section.png);
+}
+
+#links_col_titles {
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 1.7em;
+	color: black;
+	margin: 10% 0 5% 0;
+	text-align: center;
+}
+
+.firstChild_links {
+	padding-top: 5%;
 }
 
 /* ------- NEWSLETTERS STYLING -------- */

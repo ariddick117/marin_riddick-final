@@ -11,7 +11,7 @@ img, embed, object, video
 
 body
 {
-	font-family: Arial, sans-serif;
+	font-family: franklin-gothic-urw-cond, sans-serif;
 	background-color: white;
 }
 
@@ -23,7 +23,9 @@ a
 
 h2, h3
 {
-	font-family: Georgia, serif; /*fix this eventually*/
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 500;
+	font-style: normal;
 	color: black;
 }
 
@@ -60,10 +62,10 @@ h2, h3
 }
 
 #mainNav button {
-  background: url(../images/burger.svg) center no-repeat;
+  background: url(../images/created_icons_hamburger_menu-temp.svg) center no-repeat;
   border: 0;
-  width: 35px;
-  height: 35px;
+  width: 45px;
+  height: 45px;
   transition: all 500ms ease;
 	margin: 5% 0 0 5%;
 }
@@ -146,14 +148,17 @@ h2, h3
 
 /* Hero text */
 .hero_text h2 {
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 700;
+	font-style: normal;
 	font-size: 2.5em;
 	text-align: left;
 	margin-left: 10%;
 	color: black;
 	font-weight: bold;
 	margin-top: 10%;
-	font-family: arial, sans-serif;
-	line-height: 1.5em;
+	line-height: 1.3em;
+	width: 80%;
 }
 
 .hero_text h3 {
@@ -165,8 +170,9 @@ h2, h3
 	line-height: 1.5em;
 	width: 80%;
 	padding-bottom: 10%;
-	font-family: arial, sans-serif;
-}
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 400;
+	font-style: normal;}
 
 /* ---- FOOTER ----- */
 /* Footer background  */
@@ -220,12 +226,13 @@ h2, h3
 	margin-left: 38%;
 }
 
-#back_to_top a {
-	color: white;
-	margin-left: 70%;
-	margin-top: -21%;
+#back_to_top img {
+	margin-left: 81%;
+	margin-top: -24%;
 	margin-bottom: 20%;
 	position: absolute;
+	width: 13%;
+	height: auto;
 }
 
 /* Copyrights */
@@ -256,44 +263,51 @@ h2, h3
 	background-position: center;
 	width: 100%;
 	height: 150px;
-	margin: 10% 0 10% 0;
+	margin: 10% 0 0 0;
 }
 
 .collapsible_1 h2 {
-	font-family: arial, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 500;
+	font-style: normal;
 	color: white;
-	font-size: 2em;
-	font-weight: bold;
+	font-size: 1.7em;
 	text-align: center;
-	margin: 0 0 5% 0;
+	margin: 0 0 2% 0;
 	padding-top: 5%;
 }
 
 .collapsible_1 h3 {
-	font-family: arial, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 50;
+	font-style: normal;
 	color: white;
-	font-size: 1.8em;
-	font-style: italic;
+	font-size: 1.5em;
 	text-align: center;
 }
 
 .collapsible_1_content {
-	width: 90%;
+	width: 100%;
 	height: auto;
+	background-color: #EDEDED;
 }
 
 .collapsible_1_content p {
-	font-family: arial, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	color: black;
 	text-align: justify;
 	line-height: 1em;
-	font-size: 1.2em;
-	margin-left: 10%;
+	font-size: 1em;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 .collapsible_1_content {
 	display: none;
- 	margin-top: 20px;
 }
 
 .collapsible_1_content.slideToggle {
@@ -307,39 +321,47 @@ h2, h3
 	background-position: center;
 	width: 100%;
 	height: 150px;
-	margin: 10% 0 10% 0;
+	margin: 10% 0 0 0;
 }
 
 .collapsible_2 h2 {
-	font-family: arial, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 500;
+	font-style: normal;
 	color: white;
-	font-size: 2em;
-	font-weight: bold;
+	font-size: 1.7em;
 	text-align: center;
-	margin: 0 0 5% 0;
-	padding-top: 5%;
+	margin: 0 0 2% 0;
+	padding-top: 12%;
 }
 
 .collapsible_2 h3 {
-	font-family: arial, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 50;
+	font-style: normal;
 	color: white;
-	font-size: 1.8em;
-	font-style: italic;
+	font-size: 1.5em;
 	text-align: center;
 }
 
 .collapsible_2_content {
-	width: 90%;
+	width: 100%;
 	height: auto;
+	background-color: #EDEDED;
 }
 
 .collapsible_2_content p {
-	font-family: arial, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	color: black;
 	text-align: justify;
 	line-height: 1em;
-	font-size: 1.2em;
-	margin-left: 10%;
+	font-size: 1em;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 .collapsible_2_content {
@@ -362,35 +384,43 @@ h2, h3
 }
 
 .collapsible_3 h2 {
-	font-family: arial, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 500;
+	font-style: normal;
 	color: white;
-	font-size: 2em;
-	font-weight: bold;
+	font-size: 1.7em;
 	text-align: center;
-	margin: 0 0 5% 0;
+	margin: 0 0 2% 0;
 	padding-top: 5%;
 }
 
 .collapsible_3 h3 {
-	font-family: arial, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 50;
+	font-style: normal;
 	color: white;
-	font-size: 1.8em;
-	font-style: italic;
+	font-size: 1.5em;
 	text-align: center;
 }
 
 .collapsible_3_content {
-	width: 90%;
+	width: 100%;
 	height: auto;
+	background-color: #EDEDED;
 }
 
 .collapsible_3_content p {
-	font-family: arial, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	color: black;
 	text-align: justify;
 	line-height: 1em;
-	font-size: 1.2em;
-	margin-left: 10%;
+	font-size: 1em;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 .collapsible_3_content {
@@ -413,36 +443,43 @@ h2, h3
 }
 
 .collapsible_4 h2 {
-	font-family: arial, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 500;
+	font-style: normal;
 	color: white;
-	font-size: 2em;
-	font-weight: bold;
+	font-size: 1.7em;
 	text-align: center;
-	margin: 0 0 5% 0;
+	margin: 0 0 2% 0;
 	padding-top: 5%;
 }
 
 .collapsible_4 h3 {
-	font-family: arial, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 50;
+	font-style: normal;
 	color: white;
-	font-size: 1.8em;
-	font-style: italic;
+	font-size: 1.5em;
 	text-align: center;
 }
 
 .collapsible_4_content {
-	width: 90%;
+	width: 100%;
 	height: auto;
+	background-color: #EDEDED;
 }
 
 .collapsible_4_content p {
-	font-family: arial, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	color: black;
 	text-align: justify;
 	line-height: 1em;
-	font-size: 1.2em;
-	margin-left: 10%;
-	margin-bottom: 10%;
+	font-size: 1em;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
 }
 
 .collapsible_4_content {
@@ -459,7 +496,7 @@ h2, h3
 	margin-left: 46%;
 	font-size: 2em;
 	color: white;
-	margin-top: 4%;
+	margin-top: 2%;
 	cursor: pointer;
 	transition: all 500ms ease;
 }
@@ -477,15 +514,17 @@ h2, h3
 /* ----MAIN----- */
 /* About section */
 #about_title {
-	font-family: arial, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 500;
+	font-style: normal;
 	font-size: 2em;
 	color: black;
-	margin: 60px 0 40px 0;
+	margin: 10% 0 5% 0;
 	text-align: center;
 }
 
 .section_division {
-	background-color: darkolivegreen;
+	background-color: rgb(155, 190, 75);
 	margin-left: 32%;
 	margin-bottom: 10%;
 	width: 37%;
@@ -508,12 +547,25 @@ h2, h3
 }
 
 #about_content p {
-	font-family: arial, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	color: black;
 	text-align: justify;
-	line-height: 1em;
+	line-height: 1.2em;
 	font-size: 1.2em;
 	margin-left: 10%;
+}
+
+#con_list li {
+	display: list-item;
+	list-style-type: disc;
+	list-style-position: inside;
+ 	padding: 0;
+	margin-left: 10%;
+	line-height: 1.2em;
+	font-size: 1.2em;
+	margin-top: 2%;
 }
 
 #about_content button {
@@ -531,10 +583,12 @@ h2, h3
 
 /* Events section */
 #events_title {
-	font-family: arial, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 500;
+	font-style: normal;
 	font-size: 2em;
 	color: black;
-	margin: 60px 0 40px 0;
+	margin: 10% 0 5% 0;
 	text-align: center;
 }
 
@@ -567,7 +621,7 @@ h2, h3
 .fa-chevron-left {
 	margin: 30% 0 0 4%;
 	font-size: 3em;
-	color: white;
+	color: rgb(155, 190, 75);
 	cursor: pointer;
 	position: absolute;
 
@@ -576,19 +630,19 @@ h2, h3
 .fa-chevron-right {
 	margin: 30% 0 0 86%;
 	font-size: 3em;
-	color: white;
+	color: rgb(155, 190, 75);
 	cursor: pointer;
 	position: absolute;
 }
 
-
-
 /* membership section */
 #memberships_title {
-	font-family: arial, sans-serif;
-	font-size: 1.6em;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 1.8em;
 	color: black;
-	margin: 60px 0 40px 0;
+	margin: 10% 0 5% 0;
 	text-align: center;
 }
 
@@ -608,10 +662,12 @@ h2, h3
 }
 
 #memberships_content p {
-	font-family: arial, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	color: black;
 	text-align: justify;
-	line-height: 1em;
+	line-height: 1.3em;
 	font-size: 1.2em;
 	margin-left: 10%;
 }
@@ -634,7 +690,7 @@ h2, h3
 	font-family: arial, sans-serif;
 	font-size: 1.6em;
 	color: black;
-	margin: 60px 0 40px 0;
+	margin: 10% 0 5% 0;
 	text-align: center;
 }
 
@@ -652,6 +708,22 @@ h2, h3
 /* Collapsible 1 bcg img */
 .col_event_bcg {
 	background-image: url(../images/about-project_1.png);
+}
+
+.collapsible_1_content img {
+	width: 100%;
+	margin: 0;
+	cursor: pointer;
+}
+
+.col_2_cont_flex {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.col_2_cont_flex img {
+	width: 60%;
 }
 
 /* Collapsible 2 bcg img */
@@ -675,10 +747,12 @@ h2, h3
 }
 
 #become_content p {
-	font-family: arial, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 	color: black;
 	text-align: justify;
-	line-height: 1em;
+	line-height: 1.2em;
 	font-size: 1.2em;
 	margin-left: 10%;
 }
@@ -701,7 +775,7 @@ h2, h3
 	font-family: arial, sans-serif;
 	font-size: 2em;
 	color: black;
-	margin: 60px 0 40px 0;
+	margin: 10% 0 5% 0;
 	text-align: center;
 }
 
@@ -742,7 +816,7 @@ h2, h3
 	font-family: arial, sans-serif;
 	font-size: 1.7em;
 	color: black;
-	margin: 60px 0 40px 0;
+	margin: 10% 0 5% 0;
 	text-align: center;
 }
 
@@ -969,7 +1043,7 @@ h2, h3
 	font-family: arial, sans-serif;
 	font-size: 1.8em;
 	color: black;
-	margin: 60px 0 40px 0;
+	margin: 10% 0 5% 0;
 	text-align: center;
 }
 
@@ -1124,6 +1198,7 @@ h2, h3
 	/* index - content text */
 	#about_content p {
 		font-size: 1.8em;
+
 	}
 
 	#about_content button {

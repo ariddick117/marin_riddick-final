@@ -98,7 +98,8 @@ h2, h3
 }
 
 #mainNav li a:hover {
-  background-color: red;
+	filter:drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.3));
+  transition: all 0.2s ease-out;
 }
 
 /* Social Media Icons (header) */
@@ -595,21 +596,22 @@ h2, h3
 /* ---EVENTS CAROUSEL--- */
 #carousel_container {
 	width: 100%;
-	height: 260px;
+	height: 237px;
 	background-color: darkolivegreen;
 	margin: 0 auto;
 	overflow: hidden;
-	filter: brightness(50%);
+	max-width: 418px;
 }
 
 #carousel_images {
 	position:relative;
-	width:4000px;
+	width:6000px;
 	transition: all .5s;
 }
 
 #carousel_images img {
 	float:left;
+	width: 7%;
 }
 
 #carousel_controls {
@@ -620,7 +622,7 @@ h2, h3
 
 .fa-chevron-left {
 	margin: 30% 0 0 4%;
-	font-size: 3em;
+	font-size: 2em;
 	color: rgb(155, 190, 75);
 	cursor: pointer;
 	position: absolute;
@@ -629,7 +631,7 @@ h2, h3
 
 .fa-chevron-right {
 	margin: 30% 0 0 86%;
-	font-size: 3em;
+	font-size: 2em;
 	color: rgb(155, 190, 75);
 	cursor: pointer;
 	position: absolute;
@@ -1481,8 +1483,17 @@ h2, h3
 		margin-left: 91%;
 	}
 
+	.fa-chevron-left {
+		margin-left: 6%;
+	}
+
+	#carousel_images img {
+		width: 12%;
+	}
+
 	#carousel_container {
 		height: 350px;
+		max-width: 700px;
 	}
 
 	/* about - images  */
@@ -1939,15 +1950,24 @@ h2, h3
 	/* index - carousel */
 	#carousel_container {
 		width: 90%;
+		height: 541px;
+		max-width: 961px;
 	}
 
-	.fa-chevron-left {
-		margin-left: 7%;
-		margin-top: 14%;
+	#carousel_images img {
+		width: 16%;
 	}
 
 	.fa-chevron-right {
-		margin-top: 14%;
+		margin-top: 22%;
+		font-size: 4em;
+		margin-left: 88%;
+	}
+
+	.fa-chevron-left {
+		font-size: 4em;
+		margin-left: 9%;
+		margin-top: 22%;
 	}
 
 	/* index - membership */
@@ -2235,5 +2255,66 @@ h2, h3
 	/* contact us intro */
 	#member_content p {
 		font-size: 1.3em;
+	}
+}
+
+/* media query for 1400px */
+@media screen and (min-width: 87.5em) {
+	/* general - nav bar */
+	#mainNav li a {
+		font-size: 2em;
+	}
+
+	#burgerContent ul {
+		margin-left: 21%;
+	}
+
+	.fa-chevron-right, .fa-chevron-left {
+		margin-top: 16%;
+	}
+
+	#footerNav a {
+		font-size: 1.8em;
+	}
+
+	.collapsible_1 h2 {
+		padding-top: 5%;
+	}
+
+	.collapsible_1_content p {
+		font-size: 1.3em;
+	}
+
+	.collapsible_2 h2 {
+		padding-top: 5%;
+	}
+
+	.collapsible_2_content p {
+		font-size: 1.3em;
+	}
+
+	.collapsible_3 h2 {
+		padding-top: 5%;
+	}
+
+	.collapsible_3_content p {
+		font-size: 1.3em;
+	}
+
+	.collapsible_4 h2 {
+		padding-top: 5%;
+	}
+
+	.collapsible_4_content p {
+		font-size: 1.3em;
+	}
+
+	#team_info {
+		width: 70%;
+		margin-left: 11%;
+	}
+
+	#cont_small_img {
+		margin-left: 5%;
 	}
 }

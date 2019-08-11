@@ -1007,8 +1007,9 @@ h2, h3
 	font-style: normal;
 	font-size: 1.7em;
 	color: black;
-	margin: 10% 0 5% 0;
+	margin: 0 0 5% 0;
 	text-align: center;
+	padding-top: 10%;
 }
 
 .firstChild_links {
@@ -1411,6 +1412,14 @@ h2, h3
 		font-size: 1.8em;
 	}
 
+	#links_col_titles {
+		font-size: 3em;
+	}
+
+	.collapsible_1_content p {
+		padding-top: 0;
+	}
+
 	/* get involved - images */
 	#involved_image {
 		height: 300px;
@@ -1434,6 +1443,10 @@ h2, h3
 
 	#merchandise_content p {
 		font-size: 1.8em;
+	}
+
+	#merchandise_image {
+		height: 450px;
 	}
 
 	#merchandise_content button {

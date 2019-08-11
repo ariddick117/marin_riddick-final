@@ -839,6 +839,7 @@ h2, h3
 	line-height: 1.2em;
 	font-size: 1.2em;
 	margin-left: 10%;
+	margin-bottom: 10%;
 }
 
 /* Contact map */
@@ -1396,10 +1397,15 @@ h2, h3
 	/* about - team info */
 	#team_info h2 {
 		font-size: 2.5em;
+		width: 100%;
 	}
 
 	#team_info h3 {
 		font-size: 2em;
+	}
+
+	#team_info img {
+		width: 40%;
 	}
 
 	/* projects - titles */

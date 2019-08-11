@@ -274,7 +274,7 @@ h2, h3
 	font-size: 1.7em;
 	text-align: center;
 	margin: 0 0 2% 0;
-	padding-top: 11%;
+	padding-top: 4%;
 }
 
 .collapsible_1 h3 {
@@ -312,7 +312,6 @@ h2, h3
 
 .collapsible_1_content.slideToggle {
  display: block;
- margin-top: -10%;
 }
 
 /* Collapsible 2 */
@@ -566,6 +565,7 @@ h2, h3
 	line-height: 1.2em;
 	font-size: 1.2em;
 	margin-top: 2%;
+	text-align: justify;
 }
 
 #about_content button {
@@ -806,7 +806,10 @@ h2, h3
 	font-size: 1em;
 	font-style: italic;
 	text-align: center;
-	margin-bottom: 5%;
+}
+
+.team_info_5 h3 {
+	margin-bottom: 15% !important;
 }
 
 /* ------- CONTACT US STYLING -------- */
@@ -1153,7 +1156,12 @@ h2, h3
 @media screen and (min-width: 42.8125em) {
 	/* general - hamburger menu */
 	#mainNav button {
-		width: 7%;
+		width: 9%;
+		height: 70px;
+	}
+
+	#mainNav li a {
+		font-size: 2em;
 	}
 
 	/* general - social media icons */
@@ -1189,6 +1197,15 @@ h2, h3
 		height: 250px;
 	}
 
+	.collapsible_1 h2 {
+		font-size: 2.5em;
+		padding-top: 9%;
+	}
+
+	.collapsible_1 h3 {
+		font-size: 2.2em;
+	}
+
 	.collapsible_1_content p {
 		font-size: 1.8em;
 	}
@@ -1197,8 +1214,23 @@ h2, h3
 		height: 250px;
 	}
 
+	.collapsible_2 h2 {
+		font-size: 2.5em;
+		padding-top: 9%;
+	}
+
+	.collapsible_2 h3 {
+		font-size: 2.2em;
+	}
+
 	.collapsible_2_content p {
 		font-size: 1.8em;
+	}
+
+	#about_col_2_img {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 5%;
 	}
 
 	.collapsible_3 {
@@ -1265,6 +1297,10 @@ h2, h3
 		margin: 10% 0 5% 0;
 	}
 
+	#con_list li {
+		font-size: 1.8em;
+	}
+
 	/* general - footer copyrights */
 	#copyrights h3 {
 		font-size: 1.2em;
@@ -1284,8 +1320,10 @@ h2, h3
 	}
 
 	/* general - footer back to top */
-	#back_to_top a {
-		margin-left: 78%;
+	#back_to_top img {
+		margin-left: 80%;
+		margin-top: -20%;
+		width: 13%;
 	}
 
 	/* index - images */

@@ -942,6 +942,17 @@ h2, h3
 	margin-left: 10%;
 }
 
+#news_content p {
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	color: black;
+	text-align: justify;
+	line-height: 1.2em;
+	font-size: 1.2em;
+	margin-left: 10%;
+}
+
 #involved_content button {
 	width: 35%;
 	height: auto;
@@ -996,6 +1007,108 @@ h2, h3
 }
 
 /* --Useful links section-- */
+/* section 1 - conservation */
+#col_1_conservation {
+	margin-top: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#col_1_conservation a {
+	text-decoration: none;
+	color: black;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 1.1em;
+	cursor: pointer;
+	padding: 1%;
+}
+
+/* section 2 - authorities */
+#col_1_authorities {
+	margin-top: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#col_1_authorities a {
+	text-decoration: none;
+	color: black;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 1.1em;
+	cursor: pointer;
+	padding: 1%;
+}
+
+/* section 3 - government */
+#col_1_government {
+	margin-top: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#col_1_government a {
+	text-decoration: none;
+	color: black;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 1.1em;
+	cursor: pointer;
+	padding: 1%;
+}
+
+/* section 4 - retailers */
+#col_1_retailers {
+	margin-top: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#col_1_retailers a {
+	text-decoration: none;
+	color: black;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 1.1em;
+	cursor: pointer;
+	padding: 1%;
+}
+
+/* section 5 - fishing */
+#col_1_fishing {
+	margin-top: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 5%;
+}
+
+#col_1_fishing a {
+	text-decoration: none;
+	color: black;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 1.1em;
+	cursor: pointer;
+	padding: 1%;
+}
+
+
 
 /* Collapsible 1 bcg img*/
 .col_links_bcg {
@@ -1441,6 +1554,10 @@ h2, h3
 		font-size: 1.8em;
 	}
 
+	#news_content p {
+		font-size: 1.8em;
+	}
+
 	#involved_content button {
 		font-size: 1.8em;
 		width: 30%;
@@ -1468,6 +1585,27 @@ h2, h3
 
 	#member_content p {
 		font-size: 1.8em;
+	}
+
+	/* get involved - links collapsible */
+	#col_1_conservation a {
+		font-size: 1.5em;
+	}
+
+	#col_1_authorities a {
+		font-size: 1.5em;
+	}
+
+	#col_1_government a {
+		font-size: 1.5em;
+	}
+
+	#col_1_retailers a {
+		font-size: 1.5em;
+	}
+
+	#col_1_fishing a {
+		font-size: 1.5em;
 	}
 
 	/* get involved - contact form */
@@ -1569,8 +1707,8 @@ h2, h3
 
 	#burgerContent ul {
 		position: absolute;
-		margin-top: 11%;
-		margin-left: 6%;
+		margin-top: 12%;
+		margin-left: 24%;
 	}
 
 	/* general - social media header */
@@ -1610,7 +1748,7 @@ h2, h3
 
 	#events_title {
 		font-size: 2em;
-		margin: 10% 0 5% 0;
+		margin: 0 0 5% 0;
 	}
 
 	#memberships_title {
@@ -1638,8 +1776,12 @@ h2, h3
 
 	/* general - section division */
 	.section_division {
-		margin: 9% 0 -6% 42%;
+		margin: 0 0 -6% 42%;
 		width: 17%;
+	}
+
+	#carousel_division {
+		margin-bottom: 5%;
 	}
 
 	/* general - desktop footer nav */
@@ -1657,7 +1799,7 @@ h2, h3
 	}
 
 	#footerNav a {
-		font-size: 0.8em;
+		font-size: 1.2em;
 	}
 
 	#logoFooter img {
@@ -1700,6 +1842,10 @@ h2, h3
 		margin-right: 2%;
 	}
 
+	#col_1_event p {
+		padding-top: 5%;
+	}
+
 	.collapsible_2 h3 {
 		margin-right: 2%;
 	}
@@ -1714,22 +1860,26 @@ h2, h3
 
 	.collapsible_1 h2 {
 		margin: 0 0 4% 0;
-		padding-top: 11%;
+		padding-top: 8%;
+	}
+
+	.collapsible_1_content img {
+		margin-bottom: 5%;
 	}
 
 	.collapsible_2 h2 {
 		margin: 0 0 4% 0;
-		padding-top: 11%;
+		padding-top: 8%;
 	}
 
 	.collapsible_3 h2 {
 		margin: 0 0 4% 0;
-		padding-top: 11%;
+		padding-top: 8%;
 	}
 
 	.collapsible_4 h2 {
 		margin: 0 0 4% 0;
-		padding-top: 11%;
+		padding-top: 8%;
 	}
 
 	.collapsible_1 {
@@ -1764,9 +1914,26 @@ h2, h3
 
 	#about_content button {
 		font-size: 1.3em;
-		margin-left: 53%;
+		margin-left: 31%;
 		border-radius: 5px;
-		width: 32%;
+		width: 15%;
+		position: absolute;
+		margin-top: -12%;
+
+	}
+
+	#con_list li {
+		font-size: 1.2em;
+	}
+
+	#about_image {
+		height: 472px;
+		margin-top: 15%;
+	}
+
+	.index_about_1 {
+		margin-left: -2%;
+		margin-right: 5%;
 	}
 
 	/* index - carousel */
@@ -1792,13 +1959,14 @@ h2, h3
 
 	#memberships_image {
 		order: 1;
+		height: 450px;
 	}
 
 	#memberships_content p {
 		font-size: 1.3em;
 		line-height:1.3em;
 		width: 76%;
-		margin-top: 31%;
+		margin-top: 20%;
 	}
 
 	#memberships_content button {
@@ -1898,15 +2066,27 @@ h2, h3
 
 	#team_info h3 {
 		font-size: 1em;
-		margin-right: 56%;
+		margin-left: 15%;
+		width: 100%;
 	}
 
 	/* projects - content */
 	#projects_content p {
 		margin-top: 14%;
+		font-size: 1.3em;
+	}
+
+	#become_image {
+		margin-top: 15%;
+		height: 485px;
 	}
 
 	/* get involved - intro */
+	#involved_image {
+		margin-top: 16%;
+		height: 385px;
+	}
+
 	.involved_flex {
 		display: flex;
 		flex-direction: row;
@@ -1921,11 +2101,19 @@ h2, h3
 		margin-top: 31%;
 	}
 
+	#news_content p {
+		font-size: 1.3em;
+		line-height:1.3em;
+		width: 76%;
+		margin-top: 31%;
+	}
+
 	#involved_content button {
 		font-size: 1.3em;
 		margin-left: 53%;
 		border-radius: 5px;
 		width: 32%;
+		margin-top: 7%;
 	}
 
 
@@ -1939,7 +2127,8 @@ h2, h3
 
 	#merchandise_image {
 		order: 1;
-		height: 300px;
+		height: 580px;
+		margin-top: 15%;
 	}
 
 	#merchandise_content p {
@@ -1975,8 +2164,76 @@ h2, h3
 		width: 17%;
 	}
 
+	/* get involved colapsible */
+	.col_links_bcg h2 {
+		padding-top: 12%;
+	}
+
+	#col_links_mar p {
+			padding-top: 11%;
+	}
+
+	/* get involved links collapsible */
+	#col_1_conservation a {
+		font-size: 1.6em;
+	}
+
+	#col_1_authorities a {
+		font-size: 1.6em;
+	}
+
+	#col_1_government a {
+		font-size: 1.6em;
+	}
+
+	#col_1_retailers a {
+		font-size: 1.6em;
+	}
+
+	#col_1_fishing a {
+		font-size: 1.6em;
+	}
+
 	/* newsletters - add section */
+	#involved_content p {
+		font-family: franklin-gothic-urw, sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		color: black;
+		text-align: justify;
+		line-height: 1.2em;
+		font-size: 1.3em;
+		margin-left: 10%;
+		width: 79%;
+		margin-top: 33%;
+	}
+
+	#news_content p {
+		font-family: franklin-gothic-urw, sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		color: black;
+		text-align: justify;
+		line-height: 1.2em;
+		font-size: 1.3em;
+		margin-left: 5%;
+		width: 90%;
+		margin-top: 10%;
+	}
+
 	#add_content p {
 		margin-top: 14%;
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	#add_content button {
+		width: 24%;
+		margin-left: 44%;
+	}
+
+	/* contact us intro */
+	#member_content p {
+		font-size: 1.3em;
 	}
 }

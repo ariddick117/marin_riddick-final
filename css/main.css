@@ -251,7 +251,7 @@ h2, h3
 #copyrights h3 {
 	color: white;
 	font-size: .8em;
-	font-family: Arial, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
 	padding: 20px 0 20px 0;
 }
 
@@ -280,7 +280,7 @@ h2, h3
 
 .collapsible_1 h3 {
 	font-family: franklin-gothic-urw, sans-serif;
-	font-weight: 50;
+	font-weight: 100;
 	font-style: normal;
 	color: white;
 	font-size: 1.5em;
@@ -338,7 +338,7 @@ h2, h3
 
 .collapsible_2 h3 {
 	font-family: franklin-gothic-urw, sans-serif;
-	font-weight: 50;
+	font-weight: 100;
 	font-style: normal;
 	color: white;
 	font-size: 1.5em;
@@ -396,7 +396,7 @@ h2, h3
 
 .collapsible_3 h3 {
 	font-family: franklin-gothic-urw, sans-serif;
-	font-weight: 50;
+	font-weight: 100;
 	font-style: normal;
 	color: white;
 	font-size: 1.5em;
@@ -454,7 +454,7 @@ h2, h3
 
 .collapsible_4 h3 {
 	font-family: franklin-gothic-urw, sans-serif;
-	font-weight: 50;
+	font-weight: 100;
 	font-style: normal;
 	color: white;
 	font-size: 1.5em;
@@ -513,7 +513,7 @@ h2, h3
 
 /* ----MAIN----- */
 /* About section */
-#about_title {
+.about_title {
 	font-family: franklin-gothic-urw, sans-serif;
 	font-weight: 500;
 	font-style: normal;
@@ -580,6 +580,7 @@ h2, h3
 	font-size: 1em;
 	font-weight: bold;
 	margin-top: 7%;
+	cursor: pointer;
 }
 
 /* Events section */
@@ -689,8 +690,10 @@ h2, h3
 
 /* Sponsors section */
 #sponsors_title {
-	font-family: arial, sans-serif;
-	font-size: 1.6em;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 2em;
 	color: black;
 	margin: 10% 0 5% 0;
 	text-align: center;
@@ -774,7 +777,9 @@ h2, h3
 
 /* meet the team section */
 #team_title {
-	font-family: arial, sans-serif;
+	font-family: franklin-gothic-urw, sans-serif;
+	font-weight: 500;
+	font-style: normal;
 	font-size: 2em;
 	color: black;
 	margin: 10% 0 5% 0;
@@ -1117,7 +1122,7 @@ h2, h3
 	background-image: url(../images/get_involved-links-section.png);
 }
 
-#links_col_titles {
+.links_col_titles {
 	font-family: franklin-gothic-urw, sans-serif;
 	font-weight: 500;
 	font-style: normal;
@@ -1149,6 +1154,7 @@ h2, h3
 #library_content img {
 	width: 50%;
 	height: auto;
+	cursor: pointer;
 }
 
 /* add more section */
@@ -1215,7 +1221,7 @@ h2, h3
 	background-image: url(../images/projects-project_1.png);
 }
 
-#col_proj_img_1 {
+.col_proj_img_1 {
 	padding-top: 5%;
 }
 
@@ -1396,7 +1402,7 @@ h2, h3
 	}
 
 	/* index - section titles */
-	#about_title {
+	.about_title {
 		font-size: 3em;
 	}
 
@@ -1542,7 +1548,7 @@ h2, h3
 		font-size: 1.8em;
 	}
 
-	#links_col_titles {
+	.links_col_titles {
 		font-size: 3em;
 	}
 
@@ -1753,7 +1759,7 @@ h2, h3
 	}
 
 	/* general - titles */
-	#about_title {
+	.about_title {
 		font-size: 2em;
 	}
 
@@ -1774,7 +1780,7 @@ h2, h3
 
 	#team_title {
 		font-size: 2em;
-		margin: 0% 0 5% 0;
+		margin: 0% 0 5% 1%;
 	}
 
 	#projects_title {
@@ -1929,8 +1935,12 @@ h2, h3
 		border-radius: 5px;
 		width: 15%;
 		position: absolute;
-		margin-top: -12%;
+		margin-top: 1%;
+	}
 
+	#about_content button:hover {
+		background-color: rgb(155, 190, 75);
+	  transition: all 0.2s ease-out;
 	}
 
 	#con_list li {
@@ -1994,6 +2004,12 @@ h2, h3
 		margin-left: 10%;
 		border-radius: 5px;
 		width: 32%;
+		cursor: pointer;
+	}
+
+	#memberships_content button:hover {
+		background-color: rgb(155, 190, 75);
+	  transition: all 0.2s ease-out;
 	}
 
 	/* index - sponsors */
@@ -2033,6 +2049,12 @@ h2, h3
 		margin-left: 53%;
 		border-radius: 5px;
 		width: 32%;
+		cursor: pointer;
+	}
+
+	#become_content button:hover {
+		background-color: rgb(155, 190, 75);
+	  transition: all 0.2s ease-out;
 	}
 
 	/* about - meet the team section */
@@ -2134,6 +2156,12 @@ h2, h3
 		border-radius: 5px;
 		width: 32%;
 		margin-top: 7%;
+		cursor: pointer;
+	}
+
+	#involved_content button:hover {
+		background-color: rgb(155, 190, 75);
+	  transition: all 0.2s ease-out;
 	}
 
 
@@ -2163,6 +2191,12 @@ h2, h3
 		margin-left: 10%;
 		border-radius: 5px;
 		width: 32%;
+		cursor: pointer;
+	}
+
+	#merchandise_content button:hover {
+		background-color: rgb(155, 190, 75);
+	  transition: all 0.2s ease-out;
 	}
 
 	/* get involved - contact form */
@@ -2182,6 +2216,13 @@ h2, h3
 
 	#submit {
 		width: 17%;
+	}
+
+	#submit:hover {
+		background-color: white;
+		color: #667333;
+		filter:drop-shadow(0 0 0.75rem #BABFBA);
+		transition: all 0.3s ease;
 	}
 
 	/* get involved colapsible */
@@ -2250,6 +2291,12 @@ h2, h3
 	#add_content button {
 		width: 24%;
 		margin-left: 44%;
+		cursor: pointer;
+	}
+
+	#add_content button:hover {
+		background-color: rgb(155, 190, 75);
+	  transition: all 0.2s ease-out;
 	}
 
 	/* contact us intro */

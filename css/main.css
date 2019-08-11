@@ -1237,6 +1237,15 @@ h2, h3
 		height: 250px;
 	}
 
+	.collapsible_3 h2 {
+		font-size: 2.5em;
+		padding-top: 9%;
+	}
+
+	.collapsible_3 h3 {
+		font-size: 2.2em;
+	}
+
 	.collapsible_3_content p {
 		font-size: 1.8em;
 	}
@@ -1245,8 +1254,22 @@ h2, h3
 		height: 250px;
 	}
 
+	.collapsible_4 h2 {
+		font-size: 2.5em;
+		padding-top: 9%;
+	}
+
+	.collapsible_4 h3 {
+		font-size: 2.2em;
+	}
+
 	.collapsible_4_content p {
 		font-size: 1.8em;
+	}
+
+	.col_proj_img_4 {
+		width: 100%;
+		margin-right: 0;
 	}
 
 	.fa-chevron-down {

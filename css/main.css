@@ -923,11 +923,7 @@ h2, h3
 
 /* How to get involved section */
 
-#involved_image {
-	background-image: url(../images/get_involved-memberships_info.JPG);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top;
+#involved_video {
 	width: 100%;
 	height: 150px;
 	margin: 10% 0 10% 0;
@@ -1557,7 +1553,7 @@ h2, h3
 	}
 
 	/* get involved - images */
-	#involved_image {
+	#involved_video {
 		height: 300px;
 	}
 
@@ -2124,7 +2120,7 @@ h2, h3
 	}
 
 	/* get involved - intro */
-	#involved_image {
+	#involved_video {
 		margin-top: 16%;
 		height: 385px;
 	}
@@ -2152,9 +2148,9 @@ h2, h3
 
 	#involved_content button {
 		font-size: 1.3em;
-		margin-left: 53%;
+		margin-left: 48%;
 		border-radius: 5px;
-		width: 32%;
+		width: 39%;
 		margin-top: 7%;
 		cursor: pointer;
 	}
